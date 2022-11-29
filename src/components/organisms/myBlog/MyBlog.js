@@ -35,8 +35,6 @@ const MyBlog = () => {
                     </BlockMonthPhoto>
                 </BlockMonth>
 
-
-
                 <BlockMonth>
                     <BlockMonthText>
                         <MonthText>15 May 2022</MonthText>
