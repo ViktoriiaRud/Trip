@@ -64,10 +64,10 @@ export const Logo = styled.div`
 export const ColorFilet = styled.div`
     background-image: linear-gradient(#6347F9, #FFFF);
     max-width: 1440px;
+
 `;
 
 export const WrapperFilet = styled.div`
     margin: 0px auto;
-    background-color: #6347F9;
-    
+    background: #6347F9;
 `;
