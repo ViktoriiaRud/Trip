@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 
+export const ExclusiveBackgroundColor = styled.div`
+    background: rgba(254, 114, 84, 0.08);
+`;
 
 export const Exclusive = styled.div`
     margin-top: 120px;
     max-width: 1440px;
     min-height: 994px;
-    background: rgba(254, 114, 84, 0.08);
 `;
 
 export const WrapperCards = styled.div`
-max-width: 1260px;
+    max-width: 1260px;
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;

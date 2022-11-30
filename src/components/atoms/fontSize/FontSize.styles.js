@@ -426,7 +426,7 @@ export const BlogTitle = styled.h4`
 `;
 
 export const MonthText = styled.h4`
-    margin: 25px 0px 0px 76px;
+    margin: 25px 0px 17px 54px;
     width: 127px;
     height: 32px;
     font-family: 'Open Sans';
@@ -440,7 +440,6 @@ export const MonthText = styled.h4`
 `;
 
 export const MonthTitle = styled.h4`
-    margin: 25px 0px 0px 76px;
     width: 370px;
     height: 64px;
     font-family: 'Open Sans';
@@ -448,22 +447,19 @@ export const MonthTitle = styled.h4`
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
     color: #333333;
+    letter-spacing: 3px;
 `;
 
 export const MonthSubTitle = styled.h5`
-    margin: 25px 0px 0px 76px;
-    width: 129px;
+    margin: 20px 0px 0px 59px;
+    width: 130px;
     height: 32px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
     color: rgba(51, 51, 51, 0.496405);
 `;
 
