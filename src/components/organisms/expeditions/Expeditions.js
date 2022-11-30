@@ -20,7 +20,7 @@ const Expeditions = () => {
             <WrapperCardsVila>
                 <WrapperItemVila>
                     <ExpeditionCityTitle>Rome, Italy</ExpeditionCityTitle>
-                    <>12–24 Jun 2020</>
+                    <ExpeditionTitleYear>12–24 Jun 2020</ExpeditionTitleYear>
                     <ExpeditionDollarTitle>$349</ExpeditionDollarTitle>
                     <WrapperImgCard>
                         <img src={YachtImg} alt="Yacht" />

@@ -15,8 +15,7 @@ export const NavigationList = styled.ul`
     justify-content: end;
     margin: 20px;
     list-style-type: none;
-    gap: 70px;
-     
+    gap: 70px;  
 `;
 
 export const NavigationLink = styled.a`
@@ -33,7 +32,6 @@ export const NavigationLink = styled.a`
   `;
 
 export const Promo = styled.div`
- max-width: 1260px;
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -64,10 +62,18 @@ export const Logo = styled.div`
 export const ColorFilet = styled.div`
     background-image: linear-gradient(#6347F9, #FFFF);
     max-width: 1440px;
-
 `;
 
 export const WrapperFilet = styled.div`
     margin: 0px auto;
     background: #6347F9;
+`;
+
+export const Span = styled.span`
+    max-width: 1440px;
+    display: block;
+    width: 870px;
+    height: 25px;
+    mix-blend-mode: normal;
+    background: #6347F9; 
 `;

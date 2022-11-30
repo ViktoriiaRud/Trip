@@ -8,7 +8,7 @@ import FranciscoImg from '../../../assets/img/San Francisco.png';
 
 import { Col, Row } from 'react-bootstrap';
 
-import { NavigationList, Promo, PromoImg, Subheader, StyleNavigationRow, Logo, NavigationLink, ColorFilet, WrapperFilet } from './Navigation.styles';
+import { NavigationList, Promo, PromoImg, Subheader, Span, StyleNavigationRow, Logo, NavigationLink, ColorFilet, WrapperFilet } from './Navigation.styles';
 import { Button } from '../../atoms/button/Button.styles';
 import { Title, PromoCountrySubTitle, PromoCitySubTitle, PromoSubTitle } from '../../atoms/fontSize/FontSize.styles'
 const Navigation = () => {
@@ -66,6 +66,8 @@ const Navigation = () => {
                     </PromoImg>
                 </Promo>
             </ColorFilet>
+
+            <Span></Span>
         </WrapperFilet>
     </>
 

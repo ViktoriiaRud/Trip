@@ -28,8 +28,6 @@ export const TestimonialsMarks = styled.div`
     }
 `;
 
-
-
 export const TestimonialsItems = styled.div`
     justify-content: space-between;
     display: flex;
@@ -42,8 +40,6 @@ export const TestimonialsItem = styled.div`
     width: 215px;
     height: 78px;
 `;
-
-
 
 export const TestimonialsItemPhoto = styled.div`
     width: 78px;

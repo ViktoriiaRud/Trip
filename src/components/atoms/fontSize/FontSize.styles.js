@@ -217,9 +217,9 @@ export const ExclusiveDollar = styled.h2`
 `;
 
 export const ExpeditionTitleYear = styled.h3`
-    width: 50px;
+    margin: 0px 0px 0px 37px;
+    width: 100px;
     height: 24px;
-    text-align: center;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -270,9 +270,10 @@ export const ExpeditionDollarTitle = styled.h2`
 `;
 
 export const ExpeditionCityTitle = styled.p`
-    margin: 40px 0px 0px 25px;
+ margin: 47px 0px 0px 35px;
     max-width: 470px;
-    height: 64px;
+    height: 54px;
+    max-width: 470px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
