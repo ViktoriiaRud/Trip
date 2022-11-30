@@ -6,7 +6,7 @@ export const WrapperExpeditions = styled.div`
 `;
 
 export const WrapperCardsVila = styled.div`
-max-width: 1260px;
+    max-width: 1260px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -22,13 +22,12 @@ export const WrapperItemVila = styled.div`
     background: #FFF2F2;
     &:hover {
     background-color: #6347F9;
-
     p,
     h3,
     h2{
      color: #FFFFFF;
     }
-}
+    }
 `;
 
 export const WrapperImgCard = styled.div`

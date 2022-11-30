@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import { Row } from 'react-bootstrap';
+
+
 export const RowStyle = styled(Row)`
-
-margin:0;
-
+    margin:0;
 `
 
 export const Combined = styled.div`

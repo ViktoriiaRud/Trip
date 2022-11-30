@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Row } from 'react-bootstrap';
 
 export const StyleNavigationRow = styled(Row)`
-margin:0
+    margin:0
 `;
 
 export const Subheader = styled.div`

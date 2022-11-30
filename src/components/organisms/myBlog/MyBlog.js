@@ -9,9 +9,11 @@ import Image4Img from '../../../assets/img/image4.png';
 import GirlImg from '../../../assets/img/girl.jpg';
 import BoyImg from '../../../assets/img/boy.jpg';
 
-import { CardPhoto, WrapperBlockMonth, BlockMonth, BlockMonthText, BlockMonthPhoto } from './MyBlog.styles';
+import { TextForm, CardPhoto, WrapperBlockMonth, BlockMonth, BlockMonthText, BlockMonthPhoto } from './MyBlog.styles';
 
 import { MonthText, MonthTitle, MonthSubTitle } from '../../atoms/fontSize/FontSize.styles';
+import CustomForm from '../../atoms/form/Form';
+
 const MyBlog = () => {
     return <>
         <WrapperBackgroundColor>
@@ -46,11 +48,17 @@ const MyBlog = () => {
                         <CardPhoto>
                             <img src={Image4Img} alt="Image" />
                         </CardPhoto>
-
                     </BlockMonth>
-                    <Span></Span>
 
                 </WrapperBlockMonth>
+
+                <TextForm>
+                    <h3>Newsletter</h3>
+                    <h4>Separated they live in right at the coast of the Semantics</h4>
+                    <CustomForm />
+                </TextForm>
+
+                <Span></Span>
 
             </WrapperBackgroundItem>
         </WrapperBackgroundColor>
