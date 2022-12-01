@@ -398,7 +398,7 @@ export const TestimonialsSpecialty = styled.h4`
 `;
 
 export const OurBlogText = styled.h4`
-    margin: 25px 0px 0px 40px;
+    margin: 25px 0px 0px 75px;
     padding: 40px;
     width: 190px;
     height: 32px;
@@ -413,7 +413,7 @@ export const OurBlogText = styled.h4`
 `;
 
 export const BlogTitle = styled.h4`
-    margin: 25px 0px 0px 76px;
+    margin: 25px 0px 0px 110px;
     width: 520px;
     height: 128px;
     font-family: 'Lexend Zetta';

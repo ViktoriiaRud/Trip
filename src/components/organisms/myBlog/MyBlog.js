@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { WrapperBackgroundColor, WrapperBackgroundItem, Span } from './MyBlog.styles';
+import { WrapperForm, WrapperBackgroundColor, WrapperBackgroundItem, Span } from './MyBlog.styles';
 import { OurBlogText, BlogTitle } from '../../atoms/fontSize/FontSize.styles';
 import { ButtonBlogBlue } from './../../atoms/button/Button.styles';
 
@@ -51,12 +51,16 @@ const MyBlog = () => {
                     </BlockMonth>
 
                 </WrapperBlockMonth>
+                <WrapperForm>
 
-                <TextForm>
-                    <h3>Newsletter</h3>
-                    <h4>Separated they live in right at the coast of the Semantics</h4>
+                    <TextForm>
+                        <h3>Newsletter</h3>
+                        <h4>Separated they live in right at the coast of the Semantics</h4>
+                    </TextForm>
+
                     <CustomForm />
-                </TextForm>
+                </WrapperForm>
+
 
                 <Span></Span>
 

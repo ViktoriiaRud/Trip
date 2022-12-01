@@ -81,7 +81,7 @@ export const ButtonOrangMirror = styled.button`
 `;
 
 export const ButtonBlogBlue = styled.button`
-    margin: 96px 9px 6px -108px;
+    margin: 96px 0px 6px 143px;
     position: absolute;
     width: 170px;
     height: 48px;

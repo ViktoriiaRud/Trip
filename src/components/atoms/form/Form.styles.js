@@ -1,30 +1,28 @@
 import styled from 'styled-components';
 
 export const MyForm = styled.form`
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 5px 5px 5px 5px;
     padding: 35px;
-    width: 400px;
-    min-height: 50px;
-    background-color: #fff;
-    border-radius: 3px;
-    box-shadow: 0 9px 23px 0 rgb(0 0 0 / 3%);
+    width: 620px;
+    min-height: 76px;
     label {
-        display: block;
-        margin-top: 25px;
+        margin-bottom: 20px;
         font-size: 18px;
         font-weight: bold;
     }
     input {
         width: 100%;
         height: 50px;
-        margin-top: 15px;
+        margin-top: 23px;
         padding: 5px 15px;
         background: #fff;
-        border: 1px solid #e2e2e2;
-        color: #353535;
-        border-radius: 10px;
         font-size: 22px;
         &:focus {
+            background-color: lightblue;  
         }
     }
     button {
@@ -45,7 +43,6 @@ export const MyForm = styled.form`
         color: #FFFFFF;
         cursor: pointer;
         &:hover {
-        transform: translateY(-5px);
         background-color: #FFFF;
         color: #52AA7F
         }
