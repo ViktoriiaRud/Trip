@@ -35,7 +35,6 @@ const MyBlog = () => {
                             <img src={BoatImg} alt="Boat" />
                         </CardPhoto>
                     </BlockMonth>
-
                     <BlockMonth>
                         <BlockMonthText>
                             <MonthText>15 May 2022</MonthText>
@@ -49,24 +48,19 @@ const MyBlog = () => {
                             <img src={Image4Img} alt="Image" />
                         </CardPhoto>
                     </BlockMonth>
-
                 </WrapperBlockMonth>
                 <WrapperForm>
-
                     <TextForm>
                         <h3>Newsletter</h3>
                         <h4>Separated they live in right at the coast of the Semantics</h4>
                     </TextForm>
-
                     <CustomForm />
                 </WrapperForm>
-
-
                 <Span></Span>
+
 
             </WrapperBackgroundItem>
         </WrapperBackgroundColor>
-
     </>
 }
 

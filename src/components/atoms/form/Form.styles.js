@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const MyForm = styled.form`
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,9 +11,19 @@ export const MyForm = styled.form`
     width: 620px;
     min-height: 76px;
     label {
+        position: absolute;
+        margin: 30px 5px 0px 45px;
         margin-bottom: 20px;
-        font-size: 18px;
-        font-weight: bold;
+        width: 80px;
+        height: 32px;
+        left: 16px;
+        top: 37px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(51, 51, 51, 0.496405);
     }
     input {
         width: 100%;
@@ -48,7 +59,8 @@ export const MyForm = styled.form`
         }
     }
     .error {
+        position: absolute;
         color: #e53e3e;
-        margin-top: 8px;
+        margin: 73px 0px 5px 10px;
     }
 `;

@@ -5,14 +5,12 @@ export const WrapperBackgroundColor = styled.div`
 `;
 export const WrapperBackgroundItem = styled.div`
    margin-top: 120px;
-   ${'' /* background-color: #11253A; */}
    max-width: 1440px;
    height: 2000px;
 `;
 
 export const WrapperForm = styled.div`
    margin-top: 120px;
-   ${'' /* background-color: #11253A; */}
    max-width: 1240px;
    display: flex;
    flex-direction: row;
@@ -20,8 +18,8 @@ export const WrapperForm = styled.div`
    gap: 50px;
 `;
 
-
 export const Span = styled.span`
+   margin-top: 90px;
    display: block;
    width: 1170px;
    height: 5px;
@@ -84,7 +82,7 @@ export const TextForm = styled.div`
    display: inline-block;
    margin: 10px 20px 12px 15px;
    h3 {
-   margin: 2px 20px 12px 1px;
+   margin: 39px 24px 12px 16px;
    width: 270px;
    height: 48px;
    font-family: 'Lexend Zetta';
@@ -96,7 +94,7 @@ export const TextForm = styled.div`
    color: #FFFFFF;
   }
    h4 {
-      margin: 7px 18px 8px 1px;
+      margin: 10px 18px 8px 19px;
       width: 419px;
       height: 32px;
       font-family: 'Open Sans';

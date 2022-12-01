@@ -228,7 +228,7 @@ export const ExpeditionTitleYear = styled.h3`
 `;
 
 export const ExpeditionSubTitle = styled.h3`
-    margin: 40px 0px 55px 95px;
+    margin: 40px 0px 55px 114px;
     width: 200px;
     height: 32px;
     letter-spacing: 3px;
@@ -242,7 +242,7 @@ export const ExpeditionSubTitle = styled.h3`
 `;
 
 export const ExpeditionTitle = styled.h2`
-    margin: 0px 0px 30px 95px;
+    margin: 0px 0px 30px 114px;
     text-align: start;
     width: 620px;
     height: 128px;
@@ -297,7 +297,7 @@ export const MirrorSubTitle = styled.h3`
 `;
 
 export const MirrorTitle = styled.h2`
-    margin: 0px 0px 30px 65px;
+    margin: 17px 0px 30px 65px;
     text-align: start;
     width: 397px;
     height: 128px;
