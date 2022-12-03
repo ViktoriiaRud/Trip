@@ -8,7 +8,7 @@ export const MyForm = styled.form`
     gap: 30px;
     margin: 5px 5px 5px 5px;
     padding: 35px;
-    width: 620px;
+    width: 550px;
     min-height: 76px;
     label {
         position: absolute;

@@ -103,3 +103,26 @@ export const ButtonBlogBlue = styled.button`
     border: 2px solid #FFFFFF;
      }
 `;
+
+export const ButtonContact = styled.button`
+        margin: 0px 0px 6px 37px;
+        width: 170px;
+        height: 48px;
+        padding: 15px;
+        border: 0;
+        background-color: #52AA7F;
+        font-family: 'Lexend Zetta';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        &:hover {
+        background-color: #FFFF;
+        color: #52AA7F
+     }
+`;

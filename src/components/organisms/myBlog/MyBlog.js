@@ -2,16 +2,23 @@ import React from 'react';
 
 import { WrapperForm, WrapperBackgroundColor, WrapperBackgroundItem, Span } from './MyBlog.styles';
 import { OurBlogText, BlogTitle } from '../../atoms/fontSize/FontSize.styles';
-import { ButtonBlogBlue } from './../../atoms/button/Button.styles';
+import { ButtonBlogBlue, ButtonContact } from './../../atoms/button/Button.styles';
+import { WrapperMapText, Map, Text, WrapperEmailText, Email, Phone, EmailText, NumberPhone, EmailTextItem } from './MyBlog.styles';
 
 import BoatImg from '../../../assets/img/Boat.png';
 import Image4Img from '../../../assets/img/image4.png';
 import GirlImg from '../../../assets/img/girl.jpg';
 import BoyImg from '../../../assets/img/boy.jpg';
 
+import MapImg from '../../../assets/icons/map.jpg';
+// import SquareImg from '../../../assets/icons/white_square.png';
+// import MarkerImg from '../../../assets/icons/marker.jpg';
+import Icon1Img from '../../../assets/icons/icon1.jpg';
+import Icon2Img from '../../../assets/icons/icon2.jpg';
+
 import { TextForm, CardPhoto, WrapperBlockMonth, BlockMonth, BlockMonthText, BlockMonthPhoto } from './MyBlog.styles';
 
-import { MonthText, MonthTitle, MonthSubTitle } from '../../atoms/fontSize/FontSize.styles';
+import { MonthText, MonthTitle, MonthSubTitle, TextContact, ContactTitle, ContactSubTitle } from '../../atoms/fontSize/FontSize.styles';
 import CustomForm from '../../atoms/form/Form';
 
 const MyBlog = () => {
@@ -57,6 +64,40 @@ const MyBlog = () => {
                     <CustomForm />
                 </WrapperForm>
                 <Span></Span>
+
+                <WrapperMapText>
+                    <Map>
+                        <img src={MapImg} alt="map" />
+                    </Map>
+                    <Text>
+                        <TextContact>Contact</TextContact>
+                        <ContactTitle>Get In Touch With Us</ContactTitle>
+                        <ContactSubTitle>Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                            a large language. </ContactSubTitle>
+                        <WrapperEmailText>
+                            <EmailTextItem>
+                                <Phone>
+                                    <img src={Icon2Img} alt="phone" />
+                                </Phone>
+                                <NumberPhone>
+                                    <h4>+1 (234)567-89-02</h4>
+                                </NumberPhone>
+                            </EmailTextItem>
+                            <EmailTextItem>
+                                <Email>
+                                    <img src={Icon1Img} alt="email" />
+                                </Email>
+                                <EmailText>
+                                    <h5>travel@adventure.com</h5>
+                                </EmailText>
+                            </EmailTextItem>
+                        </WrapperEmailText>
+
+                        <ButtonContact>Contact Us</ButtonContact>
+                    </Text>
+                </WrapperMapText>
+
+
 
 
             </WrapperBackgroundItem>

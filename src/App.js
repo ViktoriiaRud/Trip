@@ -7,6 +7,9 @@ import MirrorReflection from './components/organisms/mirrorReflection/MirrorRefl
 import Testimonials from './components/organisms/testimonials/Testimonials';
 import MyBlog from './components/organisms/myBlog/MyBlog';
 
+const API_KEY = process.env.REACT_APP_API_KEY;
+console.log(API_KEY)
+
 function App() {
   return (
     <div className="App">

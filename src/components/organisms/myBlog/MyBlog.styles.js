@@ -6,7 +6,7 @@ export const WrapperBackgroundColor = styled.div`
 export const WrapperBackgroundItem = styled.div`
    margin-top: 120px;
    max-width: 1440px;
-   height: 2000px;
+   height: 2250px;
 `;
 
 export const WrapperForm = styled.div`
@@ -93,19 +93,107 @@ export const TextForm = styled.div`
    letter-spacing: 8px;
    color: #FFFFFF;
   }
+  h4 {
+   margin: 39px 24px 12px 16px;
+   width: 419px;
+   height: 32px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 32px;
+   color: rgba(255, 255, 255, 0.502972);
+  } 
+`;
+
+export const WrapperMapText = styled.div`
+   margin-top: 150px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   max-width: 1170px;
+   height: 560px;
+   gap: 70px;    
+`;
+
+export const Map = styled.div`
+   max-width: 570px;
+   height: 560px;
+   img {
+      width: 100%;
+   }
+`;
+
+export const Text = styled.div`
+   max-width: 570px;
+   height: 560px;
+`;
+
+export const WrapperEmailText = styled.div`
+   margin-top: 70px;
+   max-width: 720px;
+   height:  156px;   
+`;
+
+export const Phone = styled.div`
+   background-color:  #11253A;
+   width: 48px;
+   height: 48px;
+   border-radius: 100%;
+   margin: -13px 12px 7px 29px;
+   img {
+      width: 22px;
+      height: 22px;
+      border-radius: 100%;
+      opacity: 0.08;
+   }
+   
+`;
+
+export const NumberPhone = styled.div`
    h4 {
-      margin: 10px 18px 8px 19px;
-      width: 419px;
+   width: 207px;
+   height: 26px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 32px;
+   color: #FFFFFF;
+   }  
+`;
+
+export const Email = styled.div`
+   background-color:  #11253A; 
+   width: 48px;
+   height: 48px;
+   margin: -13px 12px 7px 29px;
+   z-index: 0;
+   img {
+      width: 22px;
+      height: 22px;
+      border-radius: 100%;
+      opacity: 0.08;
+   }
+`;
+
+export const EmailText = styled.div`
+   h5 {
+      width: 170px;
       height: 32px;
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
-      line-height: 32px;
+      line-height: 16px;
       color: rgba(255, 255, 255, 0.502972);
    }
 `;
 
-
-
-
+export const EmailTextItem = styled.div`
+   margin-top: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 2px;    
+`;
