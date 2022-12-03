@@ -13,8 +13,8 @@ import BoyImg from '../../../assets/img/boy.jpg';
 import MapImg from '../../../assets/icons/map.jpg';
 // import SquareImg from '../../../assets/icons/white_square.png';
 // import MarkerImg from '../../../assets/icons/marker.jpg';
-import Icon1Img from '../../../assets/icons/icon1.jpg';
-import Icon2Img from '../../../assets/icons/icon2.jpg';
+import Icon1Img from '../../../assets/icons/Path.svg';
+import Icon2Img from '../../../assets/icons/Shape.svg';
 
 import { TextForm, CardPhoto, WrapperBlockMonth, BlockMonth, BlockMonthText, BlockMonthPhoto } from './MyBlog.styles';
 

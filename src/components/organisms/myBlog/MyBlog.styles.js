@@ -136,56 +136,55 @@ export const WrapperEmailText = styled.div`
 `;
 
 export const Phone = styled.div`
-   background-color:  #11253A;
+   padding: 10px 5px 7px 13px;
+   box-sizing: border-box;
+   border: 1px solid rgba(255, 255, 255, 0.295743);
+   border-radius: 24px;
    width: 48px;
    height: 48px;
-   border-radius: 100%;
-   margin: -13px 12px 7px 29px;
+   margin: 3px 12px 7px 29px;
    img {
       width: 22px;
-      height: 22px;
-      border-radius: 100%;
-      opacity: 0.08;
+      height: 24px;
    }
-   
 `;
 
 export const NumberPhone = styled.div`
    h4 {
-   width: 207px;
-   height: 26px;
+   width: 396px;
+   height: 25px;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
    font-size: 24px;
-   line-height: 32px;
+   line-height: 50px;
    color: #FFFFFF;
    }  
 `;
 
 export const Email = styled.div`
-   background-color:  #11253A; 
+   padding: 6px 3px 5px 10px;
+   box-sizing: border-box;
+   border: 1px solid rgba(255, 255, 255, 0.295743);
+   border-radius: 24px;
    width: 48px;
    height: 48px;
-   margin: -13px 12px 7px 29px;
-   z-index: 0;
+   margin: 1px 12px 7px 29px;
    img {
       width: 22px;
-      height: 22px;
-      border-radius: 100%;
-      opacity: 0.08;
+      height: 35px;
    }
 `;
 
 export const EmailText = styled.div`
    h5 {
-      width: 170px;
+      width: 378px;
       height: 32px;
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
-      line-height: 16px;
+      line-height: 53px;
       color: rgba(255, 255, 255, 0.502972);
    }
 `;

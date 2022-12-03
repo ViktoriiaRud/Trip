@@ -495,9 +495,9 @@ export const ContactTitle = styled.h5`
 `;
 
 export const ContactSubTitle = styled.h5`
-    margin: 25px 0px 0px 37px;
+    margin: 35px 0px 0px 37px;
     width: 470px;
-    height: 74px;
+    height: 35px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
