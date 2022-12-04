@@ -14,13 +14,12 @@ import { Title, PromoCountrySubTitle, PromoCitySubTitle, PromoSubTitle } from '.
 const Navigation = () => {
 
     return <>
-
         <WrapperFilet>
             <Subheader>
                 <StyleNavigationRow>
                     <Col xs={6}><Logo>TVL</Logo></Col>
                     <Col xs={4}>
-                        <NavigationList className="menu">
+                        <NavigationList>
                             <li><NavigationLink href="#">About</NavigationLink></li>
                             <li><NavigationLink href="#">Tours</NavigationLink></li>
                             <li><NavigationLink href="#">Blog</NavigationLink></li>
@@ -66,7 +65,6 @@ const Navigation = () => {
                     </PromoImg>
                 </Promo>
             </ColorFilet>
-
             <Span></Span>
         </WrapperFilet>
     </>

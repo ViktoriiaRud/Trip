@@ -92,14 +92,9 @@ const MyBlog = () => {
                                 </EmailText>
                             </EmailTextItem>
                         </WrapperEmailText>
-
                         <ButtonContact>Contact Us</ButtonContact>
                     </Text>
                 </WrapperMapText>
-
-
-
-
             </WrapperBackgroundItem>
         </WrapperBackgroundColor>
     </>

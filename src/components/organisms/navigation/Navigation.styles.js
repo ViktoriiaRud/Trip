@@ -47,7 +47,8 @@ export const PromoImg = styled.div`
 `;
 
 export const Logo = styled.div`
-    margin-top: 15px;
+    margin-top: 35px;
+    padding: 50px;
     position: absolute;
     width: 93px;
     height: 48px;
