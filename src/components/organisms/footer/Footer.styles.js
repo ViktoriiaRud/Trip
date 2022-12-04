@@ -19,6 +19,9 @@ export const WrapperFooter = styled.div`
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.500821);
     }
+    @media (max-width: 768px) {
+    background:red;
+  }
 `;
 
 export const LogoText = styled.div`
