@@ -13,16 +13,16 @@ const ExclusiveOffers = () => {
             <Exclusive >
                 <ExclusiveSubTitle>{exclusiveData.subTitle}</ExclusiveSubTitle>
                 <ExclusiveTitle>{exclusiveData.title}</ExclusiveTitle>
-                <WrapperCards>
 
+                <WrapperCards>
                     {exclusiveData.items.map((item, index) => (
                         <WrapperItem key={index}>
-                            <div className="BackgroundPhoto">
+                            <div>
                                 <img src={item.img} alt="VilaImg" />
                                 <ExclusiveCityTitle>{item.city}</ExclusiveCityTitle>
                                 <ExclusiveCountryTitle>{item.country}</ExclusiveCountryTitle>
                             </div>
-                            <BackgroundOrange className="BackgroundOrange">
+                            <BackgroundOrange>
                                 <ExclusiveDollar>{item.dollar1}</ExclusiveDollar>
                             </BackgroundOrange>
                         </WrapperItem>

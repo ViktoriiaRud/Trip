@@ -1,45 +1,46 @@
 
-import { LogoText, Social, WrapperSocial } from './Footer.styles';
+import { LogoText, Social, WrapperSocial, Facebook } from './Footer.styles';
 import { FooterColor, WrapperFooter, FooterList1, FooterLink, WrapperFooterList, FooterList2, FooterLink2 } from './Footer.styles';
-import FacebookImg from '../../../assets/icons/facebook.svg';
-import TwitterImg from '../../../assets/icons/twitter.svg';
-import InstagramImg from '../../../assets/icons/instagram.svg';
+import footerData from './footerData'
 
+const { logo, menu, service, social, about, tours, blog, contact } = footerData;
+const { transfers, guides, locals, optimal } = footerData;
 
 const Footer = () => {
     return (<>
         <FooterColor>
             <WrapperFooter>
-                <LogoText>TVL</LogoText>
+                <LogoText>{logo}</LogoText>
                 <WrapperFooterList>
+
                     <FooterList1>
-                        <h3>Menu</h3>
-                        <li><FooterLink href="#">Tours</FooterLink></li>
-                        <li><FooterLink href="#">Blog</FooterLink></li>
-                        <li><FooterLink href="#">Contact</FooterLink></li>
-                        <li><FooterLink href="#">Contact</FooterLink></li>
+                        <h3>{menu}</h3>
+                        <li><FooterLink href="#">{about}</FooterLink></li>
+                        <li><FooterLink href="#">{tours}</FooterLink></li>
+                        <li><FooterLink href="#">{blog}</FooterLink></li>
+                        <li><FooterLink href="#">{contact}</FooterLink></li>
                     </FooterList1>
 
                     <FooterList2>
-                        <h3>Service</h3>
-                        <li><FooterLink2 href="#">Tours</FooterLink2></li>
-                        <li><FooterLink2 href="#">Blog</FooterLink2></li>
-                        <li><FooterLink2 href="#">Contact</FooterLink2></li>
-                        <li><FooterLink2 href="#">Contact</FooterLink2></li>
+                        <h3>{service}</h3>
+                        <li><FooterLink2 href="#">{transfers}</FooterLink2></li>
+                        <li><FooterLink2 href="#">{guides}</FooterLink2></li>
+                        <li><FooterLink2 href="#">{locals}</FooterLink2></li>
+                        <li><FooterLink2 href="#">{optimal}</FooterLink2></li>
                     </FooterList2>
 
                     <WrapperSocial>
-                        <h3>Social</h3>
+                        <h3>{social}</h3>
                         <Social>
-                            <img src={FacebookImg} alt="Facebook" />
-                            <img src={TwitterImg} alt="Twitter" />
-                            <img src={InstagramImg} alt="Instagram" />
+                            {footerData.items.map((item, index) => (
+                                <Facebook key={index}>
+                                    <img src={item.img} alt="Facebook" />
+                                </Facebook>
+                            ))}
                         </Social>
+
                     </WrapperSocial>
                 </WrapperFooterList>
-
-
-
 
             </WrapperFooter>
         </FooterColor>

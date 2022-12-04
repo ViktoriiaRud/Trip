@@ -8,7 +8,8 @@ export const WrapperFooter = styled.div`
     max-width: 1440px;
     height: 432px;
     h3 {
-        width: 70px;
+    margin: 30px 1px 10px 0px;
+    width: 70px;
     height: 32px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -25,7 +26,7 @@ export const WrapperFooter = styled.div`
 `;
 
 export const LogoText = styled.div`
-    margin-top: 15px;
+    margin-top: 80px;
     position: absolute;
     width: 93px;
     height: 48px;
@@ -41,27 +42,27 @@ export const WrapperFooterList = styled.div`
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-components: center;
-    width: 500px;
+    justify-content: space-between;
+    width: 1200px;
     height: 340px;
+    gap: 50px;
   `;
 
 export const FooterList1 = styled.div`
-    margin-top: 15px;
-    width: 93px;
+    margin: 80px 1px 12px 180px;
+    width: 220px;
     height: 48px;
 `;
 
 export const FooterList2 = styled.div`
-    margin-top: 15px;
-    width: 93px;
+    margin: 80px 1px 12px 180px;
+    width: 220px;
     height: 48px;
 `;
 
 export const FooterLink = styled.a`
     width: 353px;
     height: 32px;
-    top: 25px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -73,7 +74,6 @@ export const FooterLink = styled.a`
 export const FooterLink2 = styled.a`
     width: 353px;
     height: 32px;
-    top: 25px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -83,11 +83,28 @@ export const FooterLink2 = styled.a`
   `;
 
 export const WrapperSocial = styled.div`
-  width: 150px;
+    margin: 80px 1px 12px 10px;
+    height: 150px;
+    gap: 5px;
 `;
 
+export const Facebook = styled.div`
+   padding: 10px 5px 7px 13px;
+   box-sizing: border-box;
+   border: 1px solid rgba(255, 255, 255, 0.295743);
+   border-radius: 24px;
+   width: 48px;
+   height: 48px;
+   margin: 25px 12px 7px 29px;
+   img {
+    width: 18px;
+    height: 18px;
+   }
+  `;
+
 export const Social = styled.div`
-  width: 160px;
-  height: 48px;
- 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
 `;
