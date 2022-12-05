@@ -54,7 +54,7 @@ export const PromoCitySubTitle = styled.h3`
 `;
 
 export const CombinedAboutText = styled.h3`
-    margin: 40px 0px 55px 130px;
+    margin: 40px 0px 55px 95px;
     width: 200px;
     height: 32px;
     letter-spacing: 3px;
@@ -68,7 +68,7 @@ export const CombinedAboutText = styled.h3`
 `;
 
 export const CombinedTitle = styled.h2`
-    margin: 0px 0px 30px 130px;
+    margin: 0px 0px 30px 90px;
     text-align: start;
     width: 487px;
     height: 128px;
@@ -82,7 +82,7 @@ export const CombinedTitle = styled.h2`
 `;
 
 export const CombinedDescription = styled.p`
-    margin: 0px 0px 30px 130px;
+    margin: 0px 0px 30px 90px;
     width: 470px;
     height: 64px;
     font-family: 'Open Sans';
