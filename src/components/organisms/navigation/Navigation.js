@@ -1,9 +1,5 @@
 import React from 'react'
-import RomaImg from '../../../assets/img/roma.png';
-import NewImg from '../../../assets/img/New York City.png';
-import ParisImg from '../../../assets/img/Paris.png';
-import BarcelonaImg from '../../../assets/img/Barcelona.png';
-import FranciscoImg from '../../../assets/img/San Francisco.png';
+
 
 
 import { Col, Row } from 'react-bootstrap';
@@ -11,58 +7,39 @@ import { Col, Row } from 'react-bootstrap';
 import { NavigationList, Promo, PromoImg, Subheader, Span, StyleNavigationRow, Logo, NavigationLink, ColorFilet, WrapperFilet } from './Navigation.styles';
 import { Button } from '../../atoms/button/Button.styles';
 import { Title, PromoCountrySubTitle, PromoCitySubTitle, PromoSubTitle } from '../../atoms/fontSize/FontSize.styles'
+
+import navigationData from './navigationData';
+
 const Navigation = () => {
 
     return <>
         <WrapperFilet>
             <Subheader>
                 <StyleNavigationRow>
-                    <Col xs={6}><Logo>TVL</Logo></Col>
+                    <Col xs={6}><Logo>{navigationData.logo}</Logo></Col>
                     <Col xs={4}>
                         <NavigationList>
-                            <li><NavigationLink href="#">About</NavigationLink></li>
-                            <li><NavigationLink href="#">Tours</NavigationLink></li>
-                            <li><NavigationLink href="#">Blog</NavigationLink></li>
-                            <li><NavigationLink href="#">Contact</NavigationLink></li>
+                            <li><NavigationLink href="#">{navigationData.about}</NavigationLink></li>
+                            <li><NavigationLink href="#">{navigationData.tours}</NavigationLink></li>
+                            <li><NavigationLink href="#">{navigationData.blog}</NavigationLink></li>
+                            <li><NavigationLink href="#">{navigationData.contact}</NavigationLink></li>
                         </NavigationList>
                     </Col>
-                    <Col xs={2}><Button>BOOK TRIP</Button></Col>
+                    <Col xs={2}><Button>{navigationData.button}</Button></Col>
                 </StyleNavigationRow>
             </Subheader>
             <ColorFilet>
-                <PromoSubTitle>Book Your Trip</PromoSubTitle>
-                <Title>Choose Your Favorite Tour To Explore</Title>
+                <PromoSubTitle>{navigationData.subtitle}</PromoSubTitle>
+                <Title>{navigationData.title}</Title>
 
                 <Promo>
-                    <PromoImg>
-                        <img src={RomaImg} alt="roma" />
-                        <PromoCountrySubTitle>Roma</PromoCountrySubTitle>
-                        <PromoCitySubTitle>Italy</PromoCitySubTitle>
-                    </PromoImg>
-
-                    <PromoImg>
-                        <img src={NewImg} alt="NewYork" />
-                        <PromoCountrySubTitle>New York City</PromoCountrySubTitle>
-                        <PromoCitySubTitle>USA</PromoCitySubTitle>
-                    </PromoImg>
-
-                    <PromoImg>
-                        <img src={ParisImg} alt="paris" />
-                        <PromoCountrySubTitle>Paris</PromoCountrySubTitle>
-                        <PromoCitySubTitle>France</PromoCitySubTitle>
-                    </PromoImg>
-
-                    <PromoImg>
-                        <img src={BarcelonaImg} alt="Barcelona" />
-                        <PromoCountrySubTitle>Barcelona</PromoCountrySubTitle>
-                        <PromoCitySubTitle>Spain</PromoCitySubTitle>
-                    </PromoImg>
-
-                    <PromoImg>
-                        <img src={FranciscoImg} alt="Francisco" />
-                        <PromoCountrySubTitle>San Francisco</PromoCountrySubTitle>
-                        <PromoCitySubTitle>USA</PromoCitySubTitle>
-                    </PromoImg>
+                    {navigationData.items.map((item, index) => (
+                        <PromoImg key={index}>
+                            <img src={item.img} alt="roma" />
+                            <PromoCountrySubTitle>{item.country}</PromoCountrySubTitle>
+                            <PromoCitySubTitle>{item.city}</PromoCitySubTitle>
+                        </PromoImg>
+                    ))}
                 </Promo>
             </ColorFilet>
             <Span></Span>
