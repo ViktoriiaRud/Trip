@@ -20,9 +20,16 @@ export const WrapperFooter = styled.div`
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.500821);
     }
-    @media (max-width: 768px) {
+    ${'' /* @media (max-width: 768px) {
     background:red;
-  }
+    max-width: 768px;
+    height: 432px;
+    }
+    @media (max-width: 425px) {
+    background: blue;
+    max-width: 425px;
+    height: 432px;
+  } */}
 `;
 
 export const LogoText = styled.div`
@@ -30,7 +37,7 @@ export const LogoText = styled.div`
     position: absolute;
     width: 93px;
     height: 48px;
-    left: 135px;
+    left: 80px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
@@ -49,13 +56,13 @@ export const WrapperFooterList = styled.div`
   `;
 
 export const FooterList1 = styled.div`
-    margin: 80px 1px 12px 180px;
+    margin: 120px 1px 12px 340px;
     width: 220px;
     height: 48px;
 `;
 
 export const FooterList2 = styled.div`
-    margin: 80px 1px 12px 180px;
+    margin: 120px 1px 12px 50px;
     width: 220px;
     height: 48px;
 `;
@@ -83,9 +90,7 @@ export const FooterLink2 = styled.a`
   `;
 
 export const WrapperSocial = styled.div`
-    margin: 80px 1px 12px 10px;
-    height: 150px;
-    gap: 5px;
+    margin: 120px 1px 12px 10px;
 `;
 
 export const Facebook = styled.div`

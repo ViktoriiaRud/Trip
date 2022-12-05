@@ -85,7 +85,7 @@ export const ButtonBlogBlue = styled.button`
     position: absolute;
     width: 170px;
     height: 48px;
-    left: 1135px;
+    left: 850px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 600;

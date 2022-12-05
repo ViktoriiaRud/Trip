@@ -45,7 +45,6 @@ const Footer = () => {
             </WrapperFooter>
         </FooterColor>
     </>
-
     )
 }
 
