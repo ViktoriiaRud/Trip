@@ -2,6 +2,7 @@ import FacebookImg from '../../../assets/icons/facebook.svg';
 import TwitterImg from '../../../assets/icons/twitter.svg';
 import InstagramImg from '../../../assets/icons/instagram.svg';
 
+
 export const footerData =
 {
     logo: "TVL",
@@ -31,5 +32,6 @@ export const footerData =
     ]
 
 }
+
 
 export default footerData;

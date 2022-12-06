@@ -1,10 +1,10 @@
-
 import { LogoText, Social, WrapperSocial, Facebook } from './Footer.styles';
 import { FooterColor, WrapperFooter, FooterList1, FooterLink, WrapperFooterList, FooterList2, FooterLink2 } from './Footer.styles';
 import footerData from './footerData'
 
 const { logo, menu, service, social, about, tours, blog, contact } = footerData;
 const { transfers, guides, locals, optimal } = footerData;
+
 
 const Footer = () => {
     return (<>
@@ -47,5 +47,6 @@ const Footer = () => {
     </>
     )
 }
+
 
 export default Footer; 

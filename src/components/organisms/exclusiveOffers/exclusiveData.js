@@ -1,8 +1,10 @@
 import VilaImg from '../../../assets/img/Vila.png';
 import BitmapBayImg from '../../../assets/img/BitmapBay.png';
 import BitmapVilaImg from '../../../assets/img/BitmapVila.png';
-export const exclusiveData =
-{
+
+
+export const exclusiveData = {
+
     subTitle: "EXCLUSIVE OFFERS",
     title: "Discover Popular Destinations",
     items: [
@@ -36,5 +38,6 @@ export const exclusiveData =
         }
     ]
 }
+
 
 export default exclusiveData;

@@ -5,9 +5,7 @@ import BarcelonaImg from '../../../assets/img/Barcelona.png';
 import FranciscoImg from '../../../assets/img/San Francisco.png';
 
 
-
 export const navigationData =
-
 {
     about: "About",
     tours: "Tours",
@@ -44,11 +42,7 @@ export const navigationData =
             city: "USA",
         }
     ]
-
-
-
 }
-
 
 
 export default navigationData;

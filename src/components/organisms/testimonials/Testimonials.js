@@ -6,10 +6,10 @@ import OvalImg from '../../../assets/img/Oval.png';
 import OvalGirlImg from '../../../assets/img/OvalGirl.png';
 import OvalBoyImg from '../../../assets/img/OvalBoy.png';
 
-
-
 import { TestimonialsSubTitle, TestimonialsTitle, TestimonialsText, TestimonialsItemName, TestimonialsSpecialty } from '../../atoms/fontSize/FontSize.styles';
 import { TestimonialsItemPhoto, TestimonialsItem, TestimonialsItems, WrapperTestimonials, TestimonialsCards, TestimonialsCard, TestimonialsMarks } from './Testimonials.styles';
+
+
 const Testimonials = () => {
     return <>
         <WrapperTestimonials>
@@ -46,7 +46,6 @@ const Testimonials = () => {
                         of Alphabet Village and the subline of her own road"</TestimonialsText>
                 </TestimonialsCard>
             </TestimonialsCards>
-
 
 
             <TestimonialsItems>

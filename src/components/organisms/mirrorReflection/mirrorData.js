@@ -1,6 +1,5 @@
-// Object with data 
-// TODO make for all pages
-export const mirrorData = {
+export const mirrorData =
+{
     subTitle: "Features",
     title: 'Get Unique Experience',
     description: 'Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.',

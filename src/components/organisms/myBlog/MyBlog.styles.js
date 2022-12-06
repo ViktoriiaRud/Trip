@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
+
 export const WrapperBackgroundColor = styled.div`
    background-color: #11253A;
 `;
+
 export const WrapperBackgroundItem = styled.div`
    margin-top: 120px;
    max-width: 1440px;

@@ -9,8 +9,9 @@ import { ButtonOrangMirror } from '../../atoms/button/Button.styles';
 import { MirrorSubTitle, MirrorTitle, MirrorDescription, MirrorsList } from '../../atoms/fontSize/FontSize.styles';
 import mirrorData from './mirrorData'
 
+
 const MirrorReflection = () => {
-    // simple array data
+
     const arrayMirror = ['Transfers', 'Guides'];
 
     return (
@@ -57,6 +58,7 @@ const MirrorReflection = () => {
         </CombinedMirror>
     )
 }
+
 
 export default MirrorReflection;
 

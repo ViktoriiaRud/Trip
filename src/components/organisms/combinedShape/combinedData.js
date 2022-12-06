@@ -1,8 +1,9 @@
-
 import Bridge from '../../../assets/img/Bitmap5.png';
 import MyPhoto from '../../../assets/img/MyPhoto.png';
 
+
 export const combinedData = {
+
     text: "About",
     title: "Explore Our Planet Together",
     description: "It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",

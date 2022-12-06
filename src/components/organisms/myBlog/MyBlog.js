@@ -21,6 +21,7 @@ import { TextForm, CardPhoto, WrapperBlockMonth, BlockMonth, BlockMonthText, Blo
 import { MonthText, MonthTitle, MonthSubTitle, TextContact, ContactTitle, ContactSubTitle } from '../../atoms/fontSize/FontSize.styles';
 import CustomForm from '../../atoms/form/Form';
 
+
 const MyBlog = () => {
     return <>
         <WrapperBackgroundColor>
@@ -99,5 +100,6 @@ const MyBlog = () => {
         </WrapperBackgroundColor>
     </>
 }
+
 
 export default MyBlog;

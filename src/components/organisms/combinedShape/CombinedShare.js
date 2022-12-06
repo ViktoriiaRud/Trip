@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Row } from 'react-bootstrap';
 
-
 import { CombinedWrapper, MyPhotoFon, MyPhotoOrange, Combined, WrapperOrange, RowStyle, WrapperBridge } from './CombinedShare.styles';
 import { ButtonOrang } from '../../atoms/button/Button.styles';
 import { CombinedAboutText, CombinedTitle, CombinedDescription, CombinedSubTitle, CombinedBookDescription, CombinedSubText, CombinedName } from '../../atoms/fontSize/FontSize.styles';
 
 import combinedData from './combinedData';
+
 
 const CombinedShare = () => {
 
