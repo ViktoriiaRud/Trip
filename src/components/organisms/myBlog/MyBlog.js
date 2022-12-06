@@ -11,8 +11,7 @@ import GirlImg from '../../../assets/img/girl.jpg';
 import BoyImg from '../../../assets/img/boy.jpg';
 
 import MapImg from '../../../assets/icons/map.jpg';
-// import SquareImg from '../../../assets/icons/white_square.png';
-// import MarkerImg from '../../../assets/icons/marker.jpg';
+import MarkerImg from '../../../assets/icons/marker.jpg';
 import Icon1Img from '../../../assets/icons/Path.svg';
 import Icon2Img from '../../../assets/icons/Shape.svg';
 
@@ -20,7 +19,7 @@ import { TextForm, CardPhoto, WrapperBlockMonth, BlockMonth, BlockMonthText, Blo
 
 import { MonthText, MonthTitle, MonthSubTitle, TextContact, ContactTitle, ContactSubTitle } from '../../atoms/fontSize/FontSize.styles';
 import CustomForm from '../../atoms/form/Form';
-
+import { Marker, WhitSquare } from './MyBlog.styles';
 
 const MyBlog = () => {
     return <>
@@ -68,8 +67,18 @@ const MyBlog = () => {
 
                 <WrapperMapText>
                     <Map>
+
+                        <WhitSquare>
+                            <h3>875 School Street Ormond Beach, FL 32174</h3>
+                        </WhitSquare>
+                        <Marker>
+                            <img src={MarkerImg} alt="Marker" />
+                        </Marker>
+
                         <img src={MapImg} alt="map" />
                     </Map>
+
+
                     <Text>
                         <TextContact>Contact</TextContact>
                         <ContactTitle>Get In Touch With Us</ContactTitle>

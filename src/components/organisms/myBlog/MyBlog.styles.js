@@ -119,6 +119,7 @@ export const WrapperMapText = styled.div`
 `;
 
 export const Map = styled.div`
+position: relative;
    max-width: 570px;
    height: 560px;
    img {
@@ -197,4 +198,42 @@ export const EmailTextItem = styled.div`
    flex-direction: row;
    justify-content: space-between;
    gap: 2px;    
+`;
+
+
+
+export const WhitSquare = styled.div`
+margin: 10px 10px 10px 10px;
+   position: absolute;
+   max-width: 270px;
+   height: 144px;
+   background-color: #FFFFFF;  
+   z-index: 1;
+   h3 {
+      padding: 27px 43px 41px 32px;
+      width: 195px;
+      height: 76px;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #333333;
+   }   
+`;
+
+export const Marker = styled.div`
+    margin: 312px 2px 7px 254px;
+    position: absolute; 
+    background-color: #FFFFFF;   
+    max-width: 48px;
+    height:  48px;
+    z-index: 1;
+    box-sizing: border-box;
+    border-radius: 24px 24px;
+    img {
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 24px 24px;
+    }
 `;
