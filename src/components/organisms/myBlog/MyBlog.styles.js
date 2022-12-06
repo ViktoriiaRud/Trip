@@ -203,12 +203,22 @@ export const EmailTextItem = styled.div`
 
 
 export const WhitSquare = styled.div`
-margin: 10px 10px 10px 10px;
+   margin: 140px 14px 17px 179px;
    position: absolute;
    max-width: 270px;
    height: 144px;
    background-color: #FFFFFF;  
    z-index: 1;
+   &::after {
+      position: absolute;
+      content: "";
+      width: 0px;
+      height: 0px;
+      border-left: 24px solid transparent;
+      border-right: 24px solid transparent;
+      border-top: 16px solid #FFFFFF;
+      margin: 60px 0px 0px 76px;             
+   }
    h3 {
       padding: 27px 43px 41px 32px;
       width: 195px;
