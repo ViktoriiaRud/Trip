@@ -1,6 +1,28 @@
 import styled from 'styled-components';
 import { Row } from 'react-bootstrap';
 
+import { ThemeProvider } from './CombinedShare';
+import breakpoint from '../../atoms/Breakpoints';
+
+// ${breakpoint.xs} {
+//     background-color: red;
+//   }
+//   ${breakpoint.sm} {
+//     background-color: blue;
+//   }
+//   ${breakpoint.md} {
+//     background-color: green;
+//   }
+//   ${breakpoint.lg} {
+//     background-color: black;
+//   }
+//   ${breakpoint.xl} {
+//     background-color: pink;
+//   }
+//   ${breakpoint.xxl} {
+//     background-color: yellow;
+//   }
+
 
 export const RowStyle = styled(Row)`
     margin:0;
@@ -8,6 +30,9 @@ export const RowStyle = styled(Row)`
 export const Combined = styled.div`
     margin-top: 120px;
     max-width: 1440px;
+    ${breakpoint.md} {
+        max-width: 1240px;
+   }
 `;
 
 export const CombinedWrapper = styled.div`

@@ -1,10 +1,3 @@
-// export type Breakpoints = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
-
-// const BreakpointType = Record>Breakpoints>
-// const SizeType = Record>Breakpoints>
-
-
-
 const size = {
   xs: '360px',
   sm: '576px',

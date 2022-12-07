@@ -1,5 +1,31 @@
 import styled from 'styled-components';
 
+import { breakpoint } from '../../atoms/Breakpoints';
+
+import { size } from '../../atoms/Breakpoints';
+
+
+
+
+// ${breakpoint.xs} {
+//     background-color: red;
+//   }
+//   ${breakpoint.sm} {
+//     background-color: blue;
+//   }
+//   ${breakpoint.md} {
+//     background-color: green;
+//   }
+//   ${breakpoint.lg} {
+//     background-color: black;
+//   }
+//   ${breakpoint.xl} {
+//     background-color: pink;
+//   }
+//   ${breakpoint.xxl} {
+//     background-color: yellow;
+//   }
+
 
 export const MyPhotoMirror = styled.div`
     margin: -12px -210px;

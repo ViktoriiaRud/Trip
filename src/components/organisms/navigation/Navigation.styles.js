@@ -2,6 +2,13 @@ import styled from 'styled-components';
 import { Row } from 'react-bootstrap';
 
 
+
+
+import { breakpoint } from '../../atoms/Breakpoints';
+
+import { size } from '../../atoms/Breakpoints';
+
+
 export const StyleNavigationRow = styled(Row)`
     margin:0
 `;
@@ -39,6 +46,7 @@ export const Promo = styled.div`
     justify-content: center;
     margin-top: 140px;
     gap: 10px; 
+    {ThemeProvider}
 `;
 
 export const PromoImg = styled.div`
@@ -59,11 +67,20 @@ export const Logo = styled.div`
     font-weight: 400;
     font-size: 40px;
     color: #FFFFFF;
+    ${breakpoint.md} {
+        margin-top: 6px;
+        left: 30px;
+   }
+    
 `;
 
 export const ColorFilet = styled.div`
     background-image: linear-gradient(#6347F9, #FFFF);
     max-width: 1440px;
+
+    ${breakpoint.md} {
+        max-width: 1240px;
+   }
 `;
 
 export const WrapperFilet = styled.div`
@@ -72,7 +89,7 @@ export const WrapperFilet = styled.div`
 `;
 
 export const Span = styled.span`
-    max-width: 1440px;
+    max-width: 768px;
     display: block;
     width: 870px;
     height: 25px;

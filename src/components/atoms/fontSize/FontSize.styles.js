@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+
+
+import { breakpoint } from '../../atoms/Breakpoints';
+
+import { size } from '../../atoms/Breakpoints';
+
 export const Title = styled.h1`
     margin-top: 20px;
     width: 780px;
@@ -7,10 +13,13 @@ export const Title = styled.h1`
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 600;
-    font-size: 84px;
-    line-height: 98px;
+    font-size: 64px;
+    line-height: 78px;
     text-align: center; 
     color: #FFFFFF;
+    ${breakpoint.md} {
+        width: 380px;
+   }
 `;
 
 export const PromoSubTitle = styled.h3`
@@ -28,6 +37,9 @@ export const PromoSubTitle = styled.h3`
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #FFFFFF;
+    ${breakpoint.md} {
+        width: 180px;
+   }
 `;
 
 export const PromoCountrySubTitle = styled.h3`

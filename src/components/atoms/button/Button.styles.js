@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+
+import { breakpoint } from '../../atoms/Breakpoints';
+
+import { size } from '../../atoms/Breakpoints';
+
 export const ButtonOrang = styled.button`
     margin: 60px 19px 5px 150px;
     width: 154px;
@@ -35,6 +40,9 @@ export const Button = styled.button`
     background-color: #A69CDB;
     color: #3B355E;
     border: 3px solid #3B355E;
+    ${breakpoint.md} {
+        left: 650px;
+   }
      }
 `;
 

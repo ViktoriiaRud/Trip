@@ -23,7 +23,28 @@ export const WrapperFooter = styled.div`
     letter-spacing: 3px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.500821);
-    } 
+    }
+
+    ${breakpoint.xs} {
+      background-color: red;
+    }
+    ${breakpoint.sm} {
+      background-color: blue;
+    }
+    ${breakpoint.md} {
+      background-color: green;
+    }
+    ${breakpoint.lg} {
+      background-color: black;
+    }
+    ${breakpoint.xl} {
+      background-color: pink;
+    }
+    ${breakpoint.xxl} {
+      background-color: yellow;
+    }
+  
+  
 `;
 
 export const LogoText = styled.div`

@@ -1,6 +1,27 @@
 import styled from 'styled-components';
 
 
+
+
+// ${breakpoint.xs} {
+//     background-color: red;
+//   }
+//   ${breakpoint.sm} {
+//     background-color: blue;
+//   }
+//   ${breakpoint.md} {
+//     background-color: green;
+//   }
+//   ${breakpoint.lg} {
+//     background-color: black;
+//   }
+//   ${breakpoint.xl} {
+//     background-color: pink;
+//   }
+//   ${breakpoint.xxl} {
+//     background-color: yellow;
+//   }
+
 export const WrapperExpeditions = styled.div`
     margin-top: 120px;
     max-width: 1440px;

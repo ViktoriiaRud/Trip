@@ -1,7 +1,6 @@
 import React from 'react'
 
-
-
+import ThemeProvider from 'react-bootstrap/ThemeProvider';
 import { Col, Row } from 'react-bootstrap';
 
 import { NavigationList, Promo, PromoImg, Subheader, Span, StyleNavigationRow, Logo, NavigationLink, ColorFilet, WrapperFilet } from './Navigation.styles';
@@ -13,39 +12,41 @@ import navigationData from './navigationData';
 const Navigation = () => {
 
     return <>
-        <WrapperFilet>
-            <Subheader>
-                <StyleNavigationRow>
-                    <Col xs={6}><Logo>{navigationData.logo}</Logo></Col>
-                    <Col xs={4}>
-                        <NavigationList>
-                            <li><NavigationLink href="#">{navigationData.about}</NavigationLink></li>
-                            <li><NavigationLink href="#">{navigationData.tours}</NavigationLink></li>
-                            <li><NavigationLink href="#">{navigationData.blog}</NavigationLink></li>
-                            <li><NavigationLink href="#">{navigationData.contact}</NavigationLink></li>
-                        </NavigationList>
-                    </Col>
-                    <Col xs={2}><Button>{navigationData.button}</Button></Col>
-                </StyleNavigationRow>
-            </Subheader>
-            <ColorFilet>
-                <PromoSubTitle>{navigationData.subtitle}</PromoSubTitle>
-                <Title>{navigationData.title}</Title>
+        <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+            minBreakpoint="xxs">
+            <WrapperFilet>
+                <Subheader>
+                    <StyleNavigationRow>
+                        <Col xs={6}><Logo>{navigationData.logo}</Logo></Col>
+                        <Col xs={4}>
+                            <NavigationList>
+                                <li><NavigationLink href="#">{navigationData.about}</NavigationLink></li>
+                                <li><NavigationLink href="#">{navigationData.tours}</NavigationLink></li>
+                                <li><NavigationLink href="#">{navigationData.blog}</NavigationLink></li>
+                                <li><NavigationLink href="#">{navigationData.contact}</NavigationLink></li>
+                            </NavigationList>
+                        </Col>
+                        <Col xs={2}><Button>{navigationData.button}</Button></Col>
+                    </StyleNavigationRow>
+                </Subheader>
+                <ColorFilet>
+                    <PromoSubTitle>{navigationData.subtitle}</PromoSubTitle>
+                    <Title>{navigationData.title}</Title>
 
-                <Promo>
-                    {navigationData.items.map((item, index) => (
-                        <PromoImg key={index}>
-                            <img src={item.img} alt="roma" />
-                            <PromoCountrySubTitle>{item.country}</PromoCountrySubTitle>
-                            <PromoCitySubTitle>{item.city}</PromoCitySubTitle>
-                        </PromoImg>
-                    ))}
-                </Promo>
-            </ColorFilet>
-            <Span></Span>
-        </WrapperFilet>
+                    <Promo>
+                        {navigationData.items.map((item, index) => (
+                            <PromoImg key={index}>
+                                <img src={item.img} alt="roma" />
+                                <PromoCountrySubTitle>{item.country}</PromoCountrySubTitle>
+                                <PromoCitySubTitle>{item.city}</PromoCitySubTitle>
+                            </PromoImg>
+                        ))}
+                    </Promo>
+                </ColorFilet>
+                <Span></Span>
+            </WrapperFilet>
+        </ThemeProvider>
     </>
-
 }
 
 export default Navigation;
