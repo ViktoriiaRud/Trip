@@ -200,8 +200,6 @@ export const EmailTextItem = styled.div`
    gap: 2px;    
 `;
 
-
-
 export const WhitSquare = styled.div`
    margin: 140px 14px 17px 179px;
    position: absolute;

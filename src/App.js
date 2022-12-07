@@ -22,6 +22,10 @@ function App() {
       <Testimonials />
       <MyBlog />
       <Footer />
+
+      {/* <Breakpoints />
+      <SizeType />
+      <BreakpointType /> */}
     </div>
   );
 }

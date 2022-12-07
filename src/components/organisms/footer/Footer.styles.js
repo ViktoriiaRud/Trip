@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import { breakpoint } from '../../atoms/Breakpoints';
+
+import { size } from '../../atoms/Breakpoints';
+
 
 export const FooterColor = styled.div`
     background-color: #0C1A29;
@@ -19,17 +23,7 @@ export const WrapperFooter = styled.div`
     letter-spacing: 3px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.500821);
-    }
-    ${'' /* @media (max-width: 768px) {
-    background:red;
-    max-width: 768px;
-    height: 432px;
-    }
-    @media (max-width: 425px) {
-    background: blue;
-    max-width: 425px;
-    height: 432px;
-  } */}
+    } 
 `;
 
 export const LogoText = styled.div`
