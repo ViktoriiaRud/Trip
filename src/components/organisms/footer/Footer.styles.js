@@ -44,7 +44,6 @@ export const WrapperFooter = styled.div`
       background-color: yellow;
     }
   
-  
 `;
 
 export const LogoText = styled.div`

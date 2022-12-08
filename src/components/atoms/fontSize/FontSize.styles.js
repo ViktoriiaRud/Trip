@@ -17,9 +17,7 @@ export const Title = styled.h1`
     line-height: 78px;
     text-align: center; 
     color: #FFFFFF;
-    ${breakpoint.md} {
-        width: 380px;
-   }
+
 `;
 
 export const PromoSubTitle = styled.h3`
@@ -51,7 +49,7 @@ export const PromoCountrySubTitle = styled.h3`
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    color: #333333;
+    color: #FFFFFF;;
 `;
 
 export const PromoCitySubTitle = styled.h3`
@@ -62,7 +60,7 @@ export const PromoCitySubTitle = styled.h3`
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    color: rgba(51, 51, 51, 0.496405);
+    color: #FFFFFF;
 `;
 
 export const CombinedAboutText = styled.h3`

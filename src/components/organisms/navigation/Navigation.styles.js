@@ -1,13 +1,9 @@
 import styled from 'styled-components';
 import { Row } from 'react-bootstrap';
 
-
-
-
 import { breakpoint } from '../../atoms/Breakpoints';
 
 import { size } from '../../atoms/Breakpoints';
-
 
 export const StyleNavigationRow = styled(Row)`
     margin:0
@@ -46,7 +42,7 @@ export const Promo = styled.div`
     justify-content: center;
     margin-top: 140px;
     gap: 10px; 
-    {ThemeProvider}
+    {ThemeProvider};
 `;
 
 export const PromoImg = styled.div`
@@ -75,9 +71,8 @@ export const Logo = styled.div`
 `;
 
 export const ColorFilet = styled.div`
-    background-image: linear-gradient(#6347F9, #FFFF);
     max-width: 1440px;
-
+    background-image:  #6347F9;
     ${breakpoint.md} {
         max-width: 1240px;
    }
