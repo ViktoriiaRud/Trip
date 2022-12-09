@@ -70,7 +70,7 @@ export const ButtonLight = styled.button`
         margin: 60px 19px 5px 242px;
     }
      ${breakpoint.xl} {
-        margin: 60px 19px 5px 565px;
+        margin: 60px 19px 5px 642px;
 }
 
 `;

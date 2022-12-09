@@ -30,10 +30,10 @@ export const WrapperCardsVila = styled.div`
         max-width: 650px;
     }
     ${breakpoint.lg} {
-        max-width: 750px;
+        max-width: 1240px;
     }
     ${breakpoint.xl} {
-        max-width: 1250px;
+        max-width: 1440px;
     }
 `;
 

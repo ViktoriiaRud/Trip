@@ -245,29 +245,28 @@ margin: 70px 0px 55px 75px;
     height: 32px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: rgba(51, 51, 51, 0.49833);
+    color: #333333;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     ${breakpoint.md} {
-        margin: 70px 0px 55px 114px;
+        margin: 150px 0px 55px 265px;
+        width: 245px;
+        height: 32px;
+        color: rgba(51, 51, 51, 0.49833);
+    }
+    ${breakpoint.lg} {
+        margin: 150px 0px 55px 114px;
         width: 205px;
         height: 32px;
     }
-    ${breakpoint.lg} {
-        margin: 70px 0px 55px 114px;
-        width: 205px;
-        height: 32px;
-}
-${breakpoint.xl} {
-        margin: 40px 0px 55px 114px;
+    ${breakpoint.xl} {
+        margin: 150px 0px 55px 114px;
         width: 200px;
         height: 32px;
-}
-
-
+    }
 `;
 
 export const ExpeditionTitle = styled.h2`
@@ -281,22 +280,12 @@ export const ExpeditionTitle = styled.h2`
     line-height: 64px;
     color: #333333;
     letter-spacing: 9px;
-
     ${breakpoint.md} {
     margin: 0px 0px 30px 114px;
-    text-align: start;
+    text-align: center;
     width: 620px;
     height: 128px;
     } 
-    ${breakpoint.lg} {
-   
-
-}
-${breakpoint.xl} {
-
-
-}
-  
 `;
 
 export const ExpeditionDollarTitle = styled.h2`
