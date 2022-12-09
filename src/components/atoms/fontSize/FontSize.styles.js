@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-
-
 import { breakpoint } from '../../../theme/Breakpoints';
 
 import { size } from '../../../theme/Breakpoints';
@@ -41,7 +39,6 @@ export const PromoSubTitle = styled.h3`
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #FFFFFF;
-
 `;
 
 export const PromoCountrySubTitle = styled.h3`
@@ -229,12 +226,6 @@ export const ExclusiveDollar = styled.h2`
     letter-spacing: 9px;
     color: #FFFFFF;
 `;
-
-
-
-
-
-
 
 export const ExpeditionTitleYear = styled.h3`
     margin: 0px 0px 0px 37px;
