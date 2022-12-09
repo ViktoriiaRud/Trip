@@ -47,7 +47,7 @@ export const Button = styled.button`
 `;
 
 export const ButtonLight = styled.button`
-    margin: 60px 19px 5px 565px;
+    margin: 60px 19px 5px 90px;
     margin-top: 70px;
     width: 170px;
     height: 48px;
@@ -65,7 +65,14 @@ export const ButtonLight = styled.button`
     transform: translateY(-5px);
     background-color: #F07C52;
     color: #FFFFFF;
-     }
+    }
+    ${breakpoint.md} {
+        margin: 60px 19px 5px 242px;
+    }
+     ${breakpoint.xl} {
+        margin: 60px 19px 5px 565px;
+}
+
 `;
 
 export const ButtonOrangMirror = styled.button`

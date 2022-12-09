@@ -7,7 +7,6 @@ import { CombinedAboutText, CombinedTitle, CombinedDescription, CombinedSubTitle
 
 import combinedData from './combinedData';
 
-
 const CombinedShare = () => {
 
     const { text, title, description, subTitle, description2, button, bridge, subText, name, myPhoto } = combinedData;
@@ -43,7 +42,6 @@ const CombinedShare = () => {
 
             </CombinedWrapper>
         </Combined>
-
     </>
 
     )

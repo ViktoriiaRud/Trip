@@ -41,6 +41,7 @@ export const PromoSubTitle = styled.h3`
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #FFFFFF;
+
 `;
 
 export const PromoCountrySubTitle = styled.h3`
@@ -229,6 +230,12 @@ export const ExclusiveDollar = styled.h2`
     color: #FFFFFF;
 `;
 
+
+
+
+
+
+
 export const ExpeditionTitleYear = styled.h3`
     margin: 0px 0px 0px 37px;
     width: 100px;
@@ -241,8 +248,9 @@ export const ExpeditionTitleYear = styled.h3`
 `;
 
 export const ExpeditionSubTitle = styled.h3`
-    margin: 40px 0px 55px 114px;
-    width: 200px;
+margin: 70px 0px 55px 75px;
+    text-align: center;
+    width: 205px;
     height: 32px;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -252,13 +260,29 @@ export const ExpeditionSubTitle = styled.h3`
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
+    ${breakpoint.md} {
+        margin: 70px 0px 55px 114px;
+        width: 205px;
+        height: 32px;
+    }
+    ${breakpoint.lg} {
+        margin: 70px 0px 55px 114px;
+        width: 205px;
+        height: 32px;
+}
+${breakpoint.xl} {
+        margin: 40px 0px 55px 114px;
+        width: 200px;
+        height: 32px;
+}
+
+
 `;
 
 export const ExpeditionTitle = styled.h2`
-    margin: 0px 0px 30px 114px;
-    text-align: start;
-    width: 620px;
-    height: 128px;
+    margin: 0px 0px 30px 11px;
+    text-align: center;
+    width: 320px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
@@ -266,6 +290,22 @@ export const ExpeditionTitle = styled.h2`
     line-height: 64px;
     color: #333333;
     letter-spacing: 9px;
+
+    ${breakpoint.md} {
+    margin: 0px 0px 30px 114px;
+    text-align: start;
+    width: 620px;
+    height: 128px;
+    } 
+    ${breakpoint.lg} {
+   
+
+}
+${breakpoint.xl} {
+
+
+}
+  
 `;
 
 export const ExpeditionDollarTitle = styled.h2`

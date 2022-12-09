@@ -1,16 +1,40 @@
 import styled from 'styled-components';
 
+import { breakpoint } from '../../../theme/Breakpoints';
+
+import { size } from '../../../theme/Breakpoints';
+
+
 export const WrapperExpeditions = styled.div`
-    margin-top: 120px;
-    max-width: 1440px;
+    margin-top: 150px;
+    max-width: 320px;
+    ${breakpoint.md} {
+      margin-top: 120px;
+      max-width: 768px;
+    }
+    ${breakpoint.lg} {
+        max-width: 1240px;
+    }
+    ${breakpoint.xl} {
+        max-width: 1440px;
+    }
 `;
 
 export const WrapperCardsVila = styled.div`
-    max-width: 1260px;
+    max-width: 260px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    ${breakpoint.md} {
+        max-width: 650px;
+    }
+    ${breakpoint.lg} {
+        max-width: 750px;
+    }
+    ${breakpoint.xl} {
+        max-width: 1250px;
+    }
 `;
 
 export const WrapperItemVila = styled.div`
