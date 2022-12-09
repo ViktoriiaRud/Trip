@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 
-import { breakpoint } from '../../atoms/Breakpoints';
+import { breakpoint } from '../../../theme/Breakpoints';
 
-import { size } from '../../atoms/Breakpoints';
+import { size } from '../../../theme/Breakpoints';
 
 export const ButtonOrang = styled.button`
     margin: 60px 19px 5px 150px;

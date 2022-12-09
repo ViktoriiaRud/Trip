@@ -6,7 +6,7 @@ import { ButtonOrang } from '../../atoms/button/Button.styles';
 import { CombinedAboutText, CombinedTitle, CombinedDescription, CombinedSubTitle, CombinedBookDescription, CombinedSubText, CombinedName } from '../../atoms/fontSize/FontSize.styles';
 
 import combinedData from './combinedData';
-// import { ThemeProvider } from "react-bootstrap";
+
 
 const CombinedShare = () => {
 

@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const WrapperExpeditions = styled.div`
     margin-top: 120px;
     max-width: 1440px;

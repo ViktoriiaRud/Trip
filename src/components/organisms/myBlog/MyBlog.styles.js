@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import { breakpoint } from '../../atoms/Breakpoints';
+import { breakpoint } from '../../../theme/Breakpoints';
 
-import { size } from '../../atoms/Breakpoints';
+import { size } from '../../../theme/Breakpoints';
 
 
 export const WrapperBackgroundColor = styled.div`

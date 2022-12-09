@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 import { Row } from 'react-bootstrap';
 
-import { ThemeProvider } from './CombinedShare';
-import breakpoint from '../../atoms/Breakpoints';
+import breakpoint from '../../../theme/Breakpoints';
 
 
 export const RowStyle = styled(Row)`

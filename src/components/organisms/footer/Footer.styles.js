@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { breakpoint } from '../../atoms/Breakpoints';
+import { breakpoint } from '../../../theme/Breakpoints';
 
-import { size } from '../../atoms/Breakpoints';
+import { size } from '../../../theme/Breakpoints';
 
 
 export const FooterColor = styled.div`
@@ -127,3 +127,7 @@ export const Social = styled.div`
     justify-content: space-between;
     gap: 10px;
 `;
+
+
+
+

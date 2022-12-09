@@ -2,28 +2,34 @@ import styled from 'styled-components';
 
 
 
-import { breakpoint } from '../../atoms/Breakpoints';
+import { breakpoint } from '../../../theme/Breakpoints';
 
-import { size } from '../../atoms/Breakpoints';
+import { size } from '../../../theme/Breakpoints';
 
 export const Title = styled.h1`
-    margin-top: 20px;
-    width: 780px;
-    height: 160px;
-    font-family: 'Lexend Zetta';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 78px;
-    text-align: center; 
-    color: #FFFFFF;
+        width: 340px;
+        font-size: 48px;
+        margin-top: 15px;
+        max-height: 100px;
+        font-family: 'Lexend Zetta';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 78px;
+        text-align: center; 
+        color: #FFFFFF;
 
+    ${breakpoint.md} {
+        width: 680px;
+        font-size: 60px;
+        max-height: 100px;
+   }
 `;
 
 export const PromoSubTitle = styled.h3`
     margin-top: 120px;
-    width: 220px;
-    height: 32px;
+    max-width: 220px;
+    max-height: 32px;
     left: 636px;
     top: 170px;
     font-family: 'Open Sans';
@@ -35,9 +41,6 @@ export const PromoSubTitle = styled.h3`
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #FFFFFF;
-    ${breakpoint.md} {
-        width: 180px;
-   }
 `;
 
 export const PromoCountrySubTitle = styled.h3`

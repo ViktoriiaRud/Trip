@@ -1,4 +1,4 @@
-import { LogoText, Social, WrapperSocial, Facebook } from './Footer.styles';
+import { LogoText, Social, WrapperSocial, Facebook, WeightText } from './Footer.styles';
 import { FooterColor, WrapperFooter, FooterList1, FooterLink, WrapperFooterList, FooterList2, FooterLink2 } from './Footer.styles';
 import footerData from './footerData'
 
@@ -7,6 +7,10 @@ const { transfers, guides, locals, optimal } = footerData;
 
 
 const Footer = () => {
+
+    const year = new Date().getFullYear();
+    const month = new Date().getMonth() + 1;
+
     return (<>
         <FooterColor>
             <WrapperFooter>
@@ -43,7 +47,14 @@ const Footer = () => {
                 </WrapperFooterList>
 
             </WrapperFooter>
+
+            <div>{new Date().getFullYear()}</div>
+            <div>{new Date().getMonth() + 1}</div>
+            <br />
+            <div>Copyright © {new Date().getFullYear()} James Doe</div>
+
         </FooterColor>
+
     </>
     )
 }

@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const ExclusiveBackgroundColor = styled.div`
     background: rgba(254, 114, 84, 0.08);
 `;
