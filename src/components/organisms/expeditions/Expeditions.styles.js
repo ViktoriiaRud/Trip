@@ -39,7 +39,7 @@ export const WrapperCardsVila = styled.div`
 
 export const WrapperItemVila = styled.div`
     max-width: 270px;
-    height: 352px;
+    ${'' /* height: 352px; */}
     border-radius: 3px;
     margin: 20px;
     padding-bottom: 10px;

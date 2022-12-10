@@ -16,7 +16,7 @@ const CombinedShare = () => {
         <Combined>
             <CombinedWrapper>
                 <RowStyle >
-                    <Col xs={6}>
+                    <Col xs={12} md={6} xl={6} xxl={6}>
                         <CombinedAboutText>{text}</CombinedAboutText>
                         <CombinedTitle>{title}</CombinedTitle>
                         <CombinedDescription>{description}</CombinedDescription>
@@ -24,7 +24,7 @@ const CombinedShare = () => {
                         <CombinedBookDescription>{description2}</CombinedBookDescription>
                         <ButtonOrang>{button}</ButtonOrang>
                     </Col>
-                    <Col xs={6}>
+                    <Col xs={12} md={6} xl={6} xxl={6}>
                         <WrapperBridge>
                             <img src={bridge} alt="bridge" />
                         </WrapperBridge>
@@ -42,12 +42,15 @@ const CombinedShare = () => {
 
             </CombinedWrapper>
         </Combined>
+
     </>
 
     )
+
+
+
+
 }
-
-
 export default CombinedShare;
 
 

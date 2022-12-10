@@ -16,12 +16,11 @@ export const Title = styled.h1`
         line-height: 78px;
         text-align: center; 
         color: #FFFFFF;
-
-    ${breakpoint.md} {
-        width: 680px;
-        font-size: 60px;
-        max-height: 100px;
-   }
+            ${breakpoint.md} {
+            width: 680px;
+            font-size: 60px;
+            max-height: 100px;
+            }
 `;
 
 export const PromoSubTitle = styled.h3`
@@ -65,24 +64,36 @@ export const PromoCitySubTitle = styled.h3`
 `;
 
 export const CombinedAboutText = styled.h3`
-    margin: 40px 0px 55px 95px;
-    width: 200px;
-    height: 32px;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 100px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: rgba(51, 51, 51, 0.49833);
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 32px;
+    color: #333333;
+        ${breakpoint.md} {  
+        text-align: start;  
+        margin: 40px 0px 55px 145px;
+        max-width: 200px;
+        font-size: 16px;
+        color: rgba(51, 51, 51, 0.49833);
+        }
+        ${breakpoint.xl} {
+        text-align: start; 
+        margin: 40px 0px 55px 90px;
+        max-width: 200px;
+        height: 32px;
+        }
 `;
 
 export const CombinedTitle = styled.h2`
-    margin: 0px 0px 30px 90px;
-    text-align: start;
-    width: 487px;
-    height: 128px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 320px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
@@ -90,49 +101,93 @@ export const CombinedTitle = styled.h2`
     line-height: 64px;
     color: #333333;
     letter-spacing: 9px;
+        ${breakpoint.md} {
+        margin: 0px 0px 20px 10px;
+        max-width: 360px;
+        }
+        ${breakpoint.lg} {
+        text-align: start;
+        margin: 0px 0px 20px 90px;
+        max-width: 487px;
+        height: 128px;
+        }
 `;
 
 export const CombinedDescription = styled.p`
-    margin: 0px 0px 30px 90px;
-    width: 470px;
-    height: 64px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #333333;
-`;
-
-export const CombinedSubTitle = styled.h3`
-    margin: 0px 0px 10px 160px;
-    width: 197px;
-    height: 32px;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 320px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     color: #333333;
+        ${breakpoint.md} {
+        margin: 0px 0px 30px 0px;
+        max-width: 350px;
+        font-size: 20px;
+        }
+        ${breakpoint.lg} {
+        text-align: start;
+        margin: 0px 0px 30px 108px;
+        max-width: 400px;
+        }
+        ${breakpoint.xl} {
+        margin: 0px 0px 30px 90px;
+        max-width: 470px;
+        }
 `;
 
-export const CombinedBookDescription = styled.h3`
-    margin: 0px 0px 0px 160px;
-    width: 370px;
-    height: 70px;
+export const CombinedSubTitle = styled.h3`
+    text-align: center;
+    margin-top: 50px;
+    max-width: 170px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 28px;
     line-height: 32px;
-    color: rgba(51, 51, 51, 0.496405);
+    color: #333333;
+        ${breakpoint.md} {
+        text-align: center;
+        max-width: 170px;
+        font-size: 24px;
+        }
+        ${breakpoint.xl} {  
+            text-align: start;
+        margin: 0px 0px 10px 160px;
+        max-width: 197px;
+        }
+`;
+
+export const CombinedBookDescription = styled.h3`
+    text-align: center;
+    margin-top: 50px;
+    max-width: 300px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+        ${breakpoint.md} {
+        text-align: center;
+        max-width: 300px;
+        font-size: 16px;
+        color: #333333;
+        }
+        ${breakpoint.xl} {
+        margin: 0px 0px 0px 160px;
+        max-width: 305px;
+        color: rgba(51, 51, 51, 0.496405);
+        }
 `;
 
 export const CombinedSubText = styled.p`
     margin: 1px 1px 15px 15px;
     padding: 41px 16px 3px 5px;
     width: 206px;
-    height: 150px;
     font-family: 'Open Sans';
     left: 11.85%;
     right: 11.85%;
@@ -143,12 +198,16 @@ export const CombinedSubText = styled.p`
     font-size: 20px;
     line-height: 32px;
     color: #FFFFFF;
+        ${breakpoint.xl} {
+        margin: 1px 1px 15px 15px;
+        padding: 41px 16px 3px 5px;
+        width: 206px;
+    }
 `;
 
 export const CombinedName = styled.h3`
     margin: 4px 1px 6px 18px;
     width: 93px;
-    height: 32px;
     font-family: 'Open Sans';
     height: 32px;
     left: 11.85%;
@@ -164,7 +223,6 @@ export const CombinedName = styled.h3`
 export const ExclusiveSubTitle = styled.h3`
     padding: 75px;
     width: 350px;
-    height: 32px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -239,7 +297,7 @@ export const ExpeditionTitleYear = styled.h3`
 `;
 
 export const ExpeditionSubTitle = styled.h3`
-margin: 70px 0px 55px 75px;
+    margin: 70px 0px 55px 75px;
     text-align: center;
     width: 205px;
     height: 32px;
@@ -264,7 +322,7 @@ margin: 70px 0px 55px 75px;
     }
     ${breakpoint.xl} {
         margin: 150px 0px 55px 114px;
-        width: 200px;
+        width: 300px;
         height: 32px;
     }
 `;
@@ -282,7 +340,6 @@ export const ExpeditionTitle = styled.h2`
     letter-spacing: 9px;
     ${breakpoint.md} {
     margin: 0px 0px 30px 114px;
-    text-align: center;
     width: 620px;
     height: 128px;
     } 
@@ -303,11 +360,10 @@ export const ExpeditionDollarTitle = styled.h2`
 `;
 
 export const ExpeditionCityTitle = styled.p`
- margin: 47px 0px 0px 35px;
+    margin: 47px 0px 0px 35px;
     max-width: 470px;
     height: 54px;
-    max-width: 470px;
-    font-family: 'Open Sans';
+     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;

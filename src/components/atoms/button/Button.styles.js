@@ -6,7 +6,7 @@ import { breakpoint } from '../../../theme/Breakpoints';
 import { size } from '../../../theme/Breakpoints';
 
 export const ButtonOrang = styled.button`
-    margin: 60px 19px 5px 150px;
+    margin: 60px 19px 5px 90px;
     width: 154px;
     height: 48px;
     background-color: #F07C52;
@@ -23,6 +23,15 @@ export const ButtonOrang = styled.button`
     transform: translateY(-5px);
     background-color: #F14101;
     }
+        ${breakpoint.xs} {    
+        margin: 60px 19px 5px 135px;
+        }
+        ${breakpoint.md} {    
+        margin: 60px 19px 5px 95px;
+        }
+        ${breakpoint.xl} {    
+        margin: 60px 19px 5px 150px;
+        }
 `;
 
 export const Button = styled.button`
