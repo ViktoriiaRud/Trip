@@ -21,7 +21,7 @@ const ExclusiveOffers = () => {
                                 <ExclusiveCountryTitle>{item.country}</ExclusiveCountryTitle>
                             </div>
                             <BackgroundOrange>
-                                <ExclusiveDollar>{item.dollar1}</ExclusiveDollar>
+                                <ExclusiveDollar>{item.dollar}</ExclusiveDollar>
                             </BackgroundOrange>
                         </WrapperItem>
                     ))}

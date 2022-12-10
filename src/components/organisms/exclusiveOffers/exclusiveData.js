@@ -12,29 +12,19 @@ export const exclusiveData = {
             img: VilaImg,
             city: "Rome",
             country: "Italy",
-            dollar1: "$199",
-            dollar2: "$250",
-            dollar3: "$129"
+            dollar: "$199",
         },
         {
-
             img: BitmapBayImg,
-            city: "Rome",
-            country: "Italy",
-            dollar1: "$199",
-            dollar2: "$250",
-            dollar3: "$129"
-
-
+            city: "New York",
+            country: "USA",
+            dollar: "$250",
         },
         {
             img: BitmapVilaImg,
-            city: "Rome",
-            country: "Italy",
-            dollar1: "$199",
-            dollar2: "$250",
-            dollar3: "$129"
-
+            city: "Paris",
+            country: "France",
+            dollar: "$129",
         }
     ]
 }
