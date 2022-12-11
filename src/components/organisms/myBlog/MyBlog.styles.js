@@ -19,6 +19,7 @@ export const WrapperForm = styled.div`
    margin-top: 120px;
    max-width: 1240px;
    display: flex;
+   flex-wrap: wrap;
    flex-direction: row;
    justify-content: space-between;
    gap: 50px;

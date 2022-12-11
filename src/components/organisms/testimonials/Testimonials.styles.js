@@ -13,7 +13,10 @@ margin-top: 20px;
 export const TestimonialsCards = styled.div`
     justify-content: space-between;
     display: flex;
+    flex-direction: column;
+    ${breakpoint.xl} {
     flex-direction: row;
+    }
 `;
 
 export const TestimonialsCard = styled.div`
@@ -36,8 +39,11 @@ export const TestimonialsMarks = styled.div`
 export const TestimonialsItems = styled.div`
     justify-content: space-between;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 78px; 
+    ${breakpoint.xl} {
+    flex-direction: row;
+    }
 `;
 
 export const TestimonialsItem = styled.div`

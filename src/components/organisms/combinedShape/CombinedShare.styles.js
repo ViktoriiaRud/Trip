@@ -38,12 +38,12 @@ export const MyPhotoOrange = styled.div`
     margin: -4px 32px;
         ${breakpoint.md} {
         max-width: 100%;
-        height: 592px;
+        ${'' /* height: 592px; */}
         margin: -4px 32px;
         }
         ${breakpoint.xl} {
         max-width: 100%;
-        height: 592px;
+        ${'' /* height: 592px; */}
         margin: -4px 32px;
         }
 `;
@@ -81,9 +81,8 @@ export const WrapperOrange = styled.div`
     }
 `;
 
-export const WrapperBridge = styled.div`  
+export const WrapperBridge = styled.div`
     max-width: 470px;
-    max-height: 592px;
     margin: 9px 1px 15px 79px;
     position: absolute;
     z-index: 0;
