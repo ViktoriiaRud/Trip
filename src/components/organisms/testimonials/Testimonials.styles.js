@@ -11,10 +11,10 @@ margin-top: 20px;
 `;
 
 export const TestimonialsCards = styled.div`
-    justify-content: space-between;
     display: flex;
     flex-direction: column;
-    ${breakpoint.xl} {
+    justify-content: space-between;
+    ${breakpoint.lg} {
     flex-direction: row;
     }
 `;
@@ -30,18 +30,16 @@ export const TestimonialsCard = styled.div`
 export const TestimonialsMarks = styled.div`
     margin: -13px 12px 7px 29px;
     width: 40px;
-    height: 40px;
     img {
         width: 100%;
     }
 `;
 
 export const TestimonialsItems = styled.div`
-    justify-content: space-between;
     display: flex;
     flex-direction: column;
-    height: 78px; 
-    ${breakpoint.xl} {
+    justify-content: space-between;
+    ${breakpoint.lg} {
     flex-direction: row;
     }
 `;
@@ -49,12 +47,10 @@ export const TestimonialsItems = styled.div`
 export const TestimonialsItem = styled.div`
     margin: 48px 227px 0px 0px;
     width: 215px;
-    height: 78px;
 `;
 
 export const TestimonialsItemPhoto = styled.div`
     width: 78px;
-    height: 78px; 
 `;
 
 

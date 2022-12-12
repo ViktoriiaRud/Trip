@@ -38,12 +38,12 @@ export const MyPhotoOrange = styled.div`
     margin: -4px 32px;
         ${breakpoint.md} {
         max-width: 100%;
-        ${'' /* height: 592px; */}
+        height: 592px;
         margin: -4px 32px;
         }
         ${breakpoint.xl} {
         max-width: 100%;
-        ${'' /* height: 592px; */}
+        height: 592px;
         margin: -4px 32px;
         }
 `;
