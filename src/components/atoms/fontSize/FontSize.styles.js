@@ -237,15 +237,22 @@ export const ExclusiveSubTitle = styled.h3`
 export const ExclusiveTitle = styled.h2`
     padding: 10px;
     text-align: center;
-    width: 573px;
-    height: 128px;
+    max-width: 320px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 40px;
     line-height: 64px;
     color: #000000;
     letter-spacing: 9px;
+        ${breakpoint.md} {
+        font-size: 56px;
+        max-width: 573px;
+        } 
+        ${breakpoint.xl} {
+        
+        height: 128px;
+        }
 `;
 
 export const ExclusiveCityTitle = styled.h2`

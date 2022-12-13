@@ -25,7 +25,7 @@ export const WrapperFooter = styled.div`
     color: rgba(255, 255, 255, 0.500821);
     }
 
-    ${breakpoint.xs} {
+    ${'' /* ${breakpoint.xs} {
       background-color: red;
     }
     ${breakpoint.sm} {
@@ -33,16 +33,16 @@ export const WrapperFooter = styled.div`
     }
     ${breakpoint.md} {
       background-color: green;
-    }
-    ${breakpoint.lg} {
+    } */}
+    ${'' /* ${breakpoint.lg} {
       background-color: black;
-    }
-    ${breakpoint.xl} {
+    } */}
+    ${'' /* ${breakpoint.xl} {
       background-color: pink;
-    }
-    ${breakpoint.xxl} {
+    } */}
+    ${'' /* ${breakpoint.xxl} {
       background-color: yellow;
-    }
+    } */}
   
 `;
 

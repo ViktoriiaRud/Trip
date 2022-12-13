@@ -15,22 +15,26 @@ export const Exclusive = styled.div`
 `;
 
 export const WrapperCards = styled.div`
-    max-width: 1260px;
+    max-width: 320px;
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    img {
+        max-width: 100%;
+    }
+    ${breakpoint.md} {
+        max-width: 1260px;
+        flex-direction: row;
+    }
 `;
 
 export const WrapperItem = styled.div`
     position: relative;
-    width: 310px;
-    
     border-radius: 3px;
     ${breakpoint.xl} {
         width: 370px;
-        height: 400px;;
     }
 `;
 
