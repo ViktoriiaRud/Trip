@@ -11,7 +11,7 @@ export const ExclusiveBackgroundColor = styled.div`
 export const Exclusive = styled.div`
     margin-top: 120px;
     max-width: 1440px;
-    min-height: 994px;
+    ${'' /* min-height: 994px; */}
 `;
 
 export const WrapperCards = styled.div`

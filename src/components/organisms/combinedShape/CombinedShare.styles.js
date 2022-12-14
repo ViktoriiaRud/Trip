@@ -38,7 +38,6 @@ export const MyPhotoOrange = styled.div`
     margin: -4px 32px;
         ${breakpoint.md} {
         max-width: 100%;
-        height: 592px;
         margin: -4px 32px;
         }
         ${breakpoint.xl} {
@@ -63,21 +62,19 @@ export const MyPhotoFon = styled.div`
 `;
 
 export const WrapperOrange = styled.div`
-    margin: 6px 0px 14px 79px;
+    margin: 1px 0px 0px 104px;
     position: absolute;
-    margin-top: 120px;
-    left: -75px;
+    margin-top: 10px;
+    left: -81px;
         ${breakpoint.md} {
-        margin: 6px 0px 14px 79px;
-        position: absolute;
         margin-top: 120px;
         left: -75px;
     }
         ${breakpoint.xl} {
         margin: 6px 0px 14px 79px;
-        position: absolute;
+        ${'' /* position: absolute;
         margin-top: 120px;
-        left: -75px;
+        left: -75px; */}
     }
 `;
 

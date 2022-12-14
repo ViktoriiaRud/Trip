@@ -5,21 +5,21 @@ import { breakpoint } from '../../../theme/Breakpoints';
 import { size } from '../../../theme/Breakpoints';
 
 export const Title = styled.h1`
-        width: 340px;
-        font-size: 48px;
+        width: 320px;
+        font-size: 40px;
         margin-top: 15px;
         max-height: 100px;
         font-family: 'Lexend Zetta';
         font-style: normal;
         font-weight: 600;
-        font-size: 64px;
         line-height: 78px;
         text-align: center; 
         color: #FFFFFF;
             ${breakpoint.md} {
             width: 680px;
-            font-size: 60px;
+            font-size: 64px;
             max-height: 100px;
+            line-height: 64px;
             }
 `;
 
@@ -97,13 +97,15 @@ export const CombinedTitle = styled.h2`
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 40px;
     line-height: 64px;
     color: #333333;
     letter-spacing: 9px;
         ${breakpoint.md} {
         margin: 0px 0px 20px 10px;
         max-width: 360px;
+        font-size: 56px;
+        line-height: 64px;
         }
         ${breakpoint.lg} {
         text-align: start;
@@ -221,8 +223,8 @@ export const CombinedName = styled.h3`
 `;
 
 export const ExclusiveSubTitle = styled.h3`
-    padding: 75px;
-    width: 350px;
+    padding: 50px;
+    margin-top: 450px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -232,9 +234,13 @@ export const ExclusiveSubTitle = styled.h3`
     letter-spacing: 3px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.500821);
+    ${breakpoint.md} {
+        margin-top: 150px;
+        } 
 `;
 
 export const ExclusiveTitle = styled.h2`
+    margin-top: 30px;
     padding: 10px;
     text-align: center;
     max-width: 320px;
@@ -242,15 +248,16 @@ export const ExclusiveTitle = styled.h2`
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    line-height: 64px;
+    line-height: 48px;
     color: #000000;
     letter-spacing: 9px;
         ${breakpoint.md} {
         font-size: 56px;
         max-width: 573px;
+        line-height: 64px;
         } 
         ${breakpoint.xl} {
-        
+        line-height: 64px;
         height: 128px;
         }
 `;
@@ -304,10 +311,9 @@ export const ExpeditionTitleYear = styled.h3`
 `;
 
 export const ExpeditionSubTitle = styled.h3`
-    margin: 70px 0px 55px 75px;
+    margin: 0px 0px 35px 75px;
     text-align: center;
-    width: 205px;
-    height: 32px;
+    width: 200px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #333333;
@@ -337,11 +343,11 @@ export const ExpeditionSubTitle = styled.h3`
 export const ExpeditionTitle = styled.h2`
     margin: 0px 0px 30px 11px;
     text-align: center;
-    width: 320px;
+    width: 280px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 38px;
     line-height: 64px;
     color: #333333;
     letter-spacing: 9px;
@@ -349,6 +355,8 @@ export const ExpeditionTitle = styled.h2`
     margin: 0px 0px 30px 114px;
     width: 620px;
     height: 128px;
+    font-size: 56px;
+    line-height: 64px;
     } 
 `;
 
@@ -395,15 +403,22 @@ export const MirrorSubTitle = styled.h3`
 export const MirrorTitle = styled.h2`
     margin: 17px 0px 30px 65px;
     text-align: start;
-    width: 397px;
+    width: 300px;
     height: 128px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 40px;
     line-height: 64px;
     color: #333333;
     letter-spacing: 9px;
+    ${breakpoint.md} {
+    margin: 0px 0px 30px 114px;
+    width: 520px;
+    height: 128px;
+    font-size: 56px;
+    line-height: 64px;
+    } 
 `;
 
 export const MirrorDescription = styled.p`
@@ -445,16 +460,22 @@ export const TestimonialsSubTitle = styled.h3`
 `;
 
 export const TestimonialsTitle = styled.h2`
-    width: 576px;
+    width: 300px;
     height: 128px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 40px;
     line-height: 64px;
     text-align: center;
     letter-spacing: 12px;
     color: #333333;
+    ${breakpoint.md} {
+    margin: 0px 0px 30px 114px;
+    width: 576px;
+    height: 128px;
+    font-size: 56px;
+    }
 `;
 
 export const TestimonialsText = styled.p`
@@ -509,16 +530,25 @@ export const OurBlogText = styled.h4`
 `;
 
 export const BlogTitle = styled.h4`
-    margin: 25px 0px 0px 110px;
-    width: 520px;
-    height: 128px;
+    ${'' /* margin: 25px 0px 0px 110px; */}
+    width: 300px;
+    text-align: center;
+    ${'' /* height: 128px; */}
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 40px;
     line-height: 64px;
     letter-spacing: 12px;
     color: #FFFFFF;
+    ${breakpoint.md} {
+    margin: 0px 0px 0px 104px;
+    width: 520px;
+    height: 128px;
+    font-size: 56px;
+    line-height: 64px;
+    
+    }
 `;
 
 export const MonthText = styled.h4`
