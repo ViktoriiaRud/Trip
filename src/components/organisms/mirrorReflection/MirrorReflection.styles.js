@@ -4,32 +4,67 @@ import { breakpoint } from '../../../theme/Breakpoints';
 
 import { size } from '../../../theme/Breakpoints';
 
+
+
+
 export const MyPhotoMirror = styled.div`
-    margin: -12px -210px;
-    width: 100%;
+margin: 0px 5px 10px -242px;
+    width: 320px;
+    ${breakpoint.xl} {
+        margin: -12px -210px;
+        width: 100%;
+  }
 `;
 
 export const CombinedMirror = styled.div`
-    max-width: 1440px;
-    height: 694px;
+    max-width: 320px;
     margin-top: 150px;
+
+  ${breakpoint.md} {
+  margin-top: 100px;
+  max-width: 1100px;
+  }
+  ${breakpoint.xl} {
+  margin-top: 120px;
+  max-width: 1440px;
+  }
 `;
 
 export const WrapperCombinedMirror = styled.div`
+    max-width: 320px;
+       img { 
+       max-width: 300px;
+       }
     margin: 130px;
+    ${breakpoint.xl} {
+        img { 
+       max-width: 560px;
+       }
+    margin-top: 130px;
+    max-width: 1440px;
+    }
 `;
 
 export const WrapperOrangeMirror = styled.div`
-    margin: 0px 0px 0px 452px;
-    position: absolute;
-    margin-top: 100px;
-    left: -10px;
+        margin: 116px 45px 29px 92px;
+    ${breakpoint.xl} {
+        margin: 0px 0px 0px 452px;
+        position: absolute;
+        margin-top: 100px;
+        left: -10px;
+    }
 `;
 
 export const WrapperBridgeMirror = styled.div`
-    margin: 2px 8px 30px -95px;
+max-width: 320px;
+    margin: 0px 0px 0px -150px;
     position: absolute;
+    z-index: -1;
+    ${breakpoint.xl} {
+        margin: 2px 8px 30px -95px;
+    ${'' /* position: absolute; */}
     z-index: 0;
+    }
 `;
 
 export const WrapperOrangeMirrorText = styled.div`
