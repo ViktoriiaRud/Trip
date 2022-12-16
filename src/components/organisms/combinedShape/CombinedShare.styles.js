@@ -35,7 +35,7 @@ export const CombinedWrapper = styled.div`
 
 export const MyPhotoOrange = styled.div`
     max-width: 100%;
-    margin: -4px 32px;
+    margin: 88px 32px;
         ${breakpoint.md} {
         max-width: 100%;
         margin: -4px 32px;
@@ -71,10 +71,7 @@ export const WrapperOrange = styled.div`
         left: -75px;
     }
         ${breakpoint.xl} {
-        margin: 6px 0px 14px 79px;
-        ${'' /* position: absolute;
-        margin-top: 120px;
-        left: -75px; */}
+        margin: 120px 0px 14px 79px;
     }
 `;
 

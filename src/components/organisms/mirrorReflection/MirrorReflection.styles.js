@@ -8,26 +8,26 @@ import { size } from '../../../theme/Breakpoints';
 
 
 export const MyPhotoMirror = styled.div`
-margin: 0px 5px 10px -242px;
-    width: 320px;
-    ${breakpoint.xl} {
-        margin: -12px -210px;
+    margin: 0px 5px 10px -200px;
+    width: 300px;
+        ${breakpoint.xl} {
+        width: 540px;
+        margin: -12px -280px;
         width: 100%;
-  }
+        }
 `;
 
 export const CombinedMirror = styled.div`
     max-width: 320px;
     margin-top: 150px;
-
-  ${breakpoint.md} {
-  margin-top: 100px;
-  max-width: 1100px;
-  }
-  ${breakpoint.xl} {
-  margin-top: 120px;
-  max-width: 1440px;
-  }
+        ${breakpoint.md} {
+        margin-top: 100px;
+        max-width: 1100px;
+        }
+        ${breakpoint.xl} {
+        margin-top: 120px;
+        max-width: 1440px;
+        }
 `;
 
 export const WrapperCombinedMirror = styled.div`
@@ -36,49 +36,56 @@ export const WrapperCombinedMirror = styled.div`
        max-width: 300px;
        }
     margin: 130px;
-    ${breakpoint.xl} {
+        ${breakpoint.xl} {
         img { 
-       max-width: 560px;
-       }
-    margin-top: 130px;
-    max-width: 1440px;
-    }
+            max-width: 560px;
+        }
+        margin-top: 130px;
+        max-width: 1200px;
+        }
 `;
+
 
 export const WrapperOrangeMirror = styled.div`
         margin: 116px 45px 29px 92px;
-    ${breakpoint.xl} {
-        margin: 0px 0px 0px 452px;
-        position: absolute;
-        margin-top: 100px;
-        left: -10px;
-    }
+            ${breakpoint.xl} {
+            margin: 0px 0px 0px 452px;
+            position: absolute;
+            margin-top: 100px;
+            left: -10px;
+            }
 `;
 
 export const WrapperBridgeMirror = styled.div`
-max-width: 320px;
+    max-width: 320px;
     margin: 0px 0px 0px -150px;
     position: absolute;
     z-index: -1;
-    ${breakpoint.xl} {
+        ${breakpoint.xl} {
         margin: 2px 8px 30px -95px;
-    ${'' /* position: absolute; */}
-    z-index: 0;
-    }
+        max-width: 520px;
+        z-index: 0;
+        }
 `;
 
 export const WrapperOrangeMirrorText = styled.div`
+    display: inline-block;
+    margin: 15px 13px 52px -15px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
     padding: 2px 110px 1px 20px;
-    width: 150px;
-    height: 150px;
     gap: 0px;
     width: 50px;
     height: 52px;
     margin: 2px;
     width: calc( 50% -20px );
+        ${breakpoint.xl} {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2px 110px 1px 20px;
+    }
 `;
 
 export const OrangeMirror = styled.div`

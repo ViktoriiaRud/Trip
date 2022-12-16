@@ -18,7 +18,7 @@ const MirrorReflection = () => {
         <CombinedMirror>
             <WrapperCombinedMirror>
                 <Row>
-                    <Col xs={12} md={6} xl={6} xxl={6}>
+                    <Col xl={6}>
                         <WrapperBridgeMirror>
                             <img src={BitmapRomaImg} alt="BitmapRoma" />
                         </WrapperBridgeMirror>
@@ -28,7 +28,7 @@ const MirrorReflection = () => {
                             </MyPhotoMirror>
                         </WrapperOrangeMirror>
                     </Col>
-                    <Col xs={12} md={6} xl={6} xxl={6}>
+                    <Col xl={6}>
                         <MirrorSubTitle>{mirrorData.subTitle}</MirrorSubTitle>
                         <MirrorTitle>{mirrorData.title}</MirrorTitle>
                         <MirrorDescription>{mirrorData.description}</MirrorDescription>

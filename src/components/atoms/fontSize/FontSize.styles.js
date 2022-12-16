@@ -322,22 +322,22 @@ export const ExpeditionSubTitle = styled.h3`
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    ${breakpoint.md} {
+        ${breakpoint.md} {
         margin: 150px 0px 55px 265px;
         width: 245px;
         height: 32px;
         color: rgba(51, 51, 51, 0.49833);
-    }
-    ${breakpoint.lg} {
-        margin: 150px 0px 55px 114px;
-        width: 205px;
-        height: 32px;
-    }
-    ${breakpoint.xl} {
+        }
+        ${breakpoint.lg} {
+            margin: 150px 0px 55px 114px;
+            width: 205px;
+            height: 32px;
+        }
+        ${breakpoint.xl} {
         margin: 150px 0px 55px 114px;
         width: 300px;
         height: 32px;
-    }
+        }
 `;
 
 export const ExpeditionTitle = styled.h2`
@@ -351,13 +351,13 @@ export const ExpeditionTitle = styled.h2`
     line-height: 64px;
     color: #333333;
     letter-spacing: 9px;
-    ${breakpoint.md} {
-    margin: 0px 0px 30px 114px;
-    width: 620px;
-    height: 128px;
-    font-size: 56px;
-    line-height: 64px;
-    } 
+        ${breakpoint.md} {
+        margin: 0px 0px 30px 114px;
+        width: 620px;
+        height: 128px;
+        font-size: 56px;
+        line-height: 64px;
+        } 
 `;
 
 export const ExpeditionDollarTitle = styled.h2`
@@ -378,7 +378,7 @@ export const ExpeditionCityTitle = styled.p`
     margin: 47px 0px 0px 35px;
     max-width: 470px;
     height: 54px;
-     font-family: 'Open Sans';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -398,6 +398,9 @@ export const MirrorSubTitle = styled.h3`
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
+        ${breakpoint.xl} {
+        margin: 40px 0px 0px 55px;
+        }
 `;
 
 export const MirrorTitle = styled.h2`
@@ -412,13 +415,16 @@ export const MirrorTitle = styled.h2`
     line-height: 64px;
     color: #333333;
     letter-spacing: 9px;
-    ${breakpoint.md} {
-    margin: 0px 0px 30px 114px;
-    width: 520px;
-    height: 128px;
-    font-size: 56px;
-    line-height: 64px;
-    } 
+        ${breakpoint.md} {
+        margin: 0px 0px 30px 114px;
+        width: 520px;
+        height: 128px;
+        font-size: 56px;
+        line-height: 64px;
+        } 
+        ${breakpoint.xl} {
+        margin: 0px 0px 30px 59px;
+        }
 `;
 
 export const MirrorDescription = styled.p`
@@ -470,12 +476,11 @@ export const TestimonialsTitle = styled.h2`
     text-align: center;
     letter-spacing: 12px;
     color: #333333;
-    ${breakpoint.md} {
-    margin: 0px 0px 30px 114px;
-    width: 576px;
-    height: 128px;
-    font-size: 56px;
-    }
+        ${breakpoint.md} {
+        width: 576px;
+        height: 128px;
+        font-size: 56px;
+        } 
 `;
 
 export const TestimonialsText = styled.p`
@@ -530,10 +535,8 @@ export const OurBlogText = styled.h4`
 `;
 
 export const BlogTitle = styled.h4`
-    ${'' /* margin: 25px 0px 0px 110px; */}
     width: 300px;
     text-align: center;
-    ${'' /* height: 128px; */}
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
@@ -541,14 +544,13 @@ export const BlogTitle = styled.h4`
     line-height: 64px;
     letter-spacing: 12px;
     color: #FFFFFF;
-    ${breakpoint.md} {
-    margin: 0px 0px 0px 104px;
-    width: 520px;
-    height: 128px;
-    font-size: 56px;
-    line-height: 64px;
-    
-    }
+        ${breakpoint.md} {
+        margin: 0px 0px 0px 104px;
+        width: 520px;
+        height: 128px;
+        font-size: 56px;
+        line-height: 64px;
+        }
 `;
 
 export const MonthText = styled.h4`

@@ -8,16 +8,16 @@ import { size } from '../../../theme/Breakpoints';
 export const WrapperExpeditions = styled.div`
     margin-top: 150px;
     max-width: 320px;
-    ${breakpoint.md} {
-      margin-top: 120px;
-      max-width: 768px;
-    }
-    ${breakpoint.lg} {
+        ${breakpoint.md} {
+        margin-top: 120px;
+        max-width: 768px;
+        }
+        ${breakpoint.lg} {
         max-width: 1240px;
-    }
-    ${breakpoint.xl} {
+        }
+        ${breakpoint.xl} {
         max-width: 1440px;
-    }
+        }
 `;
 
 export const WrapperCardsVila = styled.div`
@@ -26,15 +26,15 @@ export const WrapperCardsVila = styled.div`
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    ${breakpoint.md} {
-        max-width: 650px;
-    }
-    ${breakpoint.lg} {
-        max-width: 1240px;
-    }
-    ${breakpoint.xl} {
-        max-width: 1440px;
-    }
+        ${breakpoint.md} {
+            max-width: 650px;
+        }
+        ${breakpoint.lg} {
+            max-width: 1240px;
+        }
+        ${breakpoint.xl} {
+            max-width: 1340px;
+        }
 `;
 
 export const WrapperItemVila = styled.div`
