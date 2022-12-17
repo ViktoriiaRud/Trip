@@ -10,6 +10,10 @@ import { size } from '../../../theme/Breakpoints';
 export const MyPhotoMirror = styled.div`
     margin: 0px 5px 10px -200px;
     width: 300px;
+    ${breakpoint.lg} {
+        width: 440px;
+        margin: 0px 5px 10px -90px;
+    }
         ${breakpoint.xl} {
         width: 540px;
         margin: -12px -280px;
@@ -24,6 +28,9 @@ export const CombinedMirror = styled.div`
         margin-top: 100px;
         max-width: 1100px;
         }
+        ${breakpoint.lg} {
+            max-width: 800px;
+        }
         ${breakpoint.xl} {
         margin-top: 120px;
         max-width: 1440px;
@@ -32,11 +39,18 @@ export const CombinedMirror = styled.div`
 
 export const WrapperCombinedMirror = styled.div`
     max-width: 320px;
+    margin: 130px;
        img { 
        max-width: 300px;
        }
-    margin: 130px;
+        ${breakpoint.lg} {
+        max-width: 620px;
+        img { 
+            max-width: 550px;
+        }
+        }
         ${breakpoint.xl} {
+            max-width: 620px;
         img { 
             max-width: 560px;
         }
@@ -47,13 +61,13 @@ export const WrapperCombinedMirror = styled.div`
 
 
 export const WrapperOrangeMirror = styled.div`
-        margin: 116px 45px 29px 92px;
-            ${breakpoint.xl} {
-            margin: 0px 0px 0px 452px;
-            position: absolute;
-            margin-top: 100px;
-            left: -10px;
-            }
+    margin: 116px 45px 29px 92px;
+        ${breakpoint.xl} {
+        margin: 0px 0px 0px 452px;
+        position: absolute;
+        margin-top: 100px;
+        left: -10px;
+        }
 `;
 
 export const WrapperBridgeMirror = styled.div`
@@ -61,26 +75,26 @@ export const WrapperBridgeMirror = styled.div`
     margin: 0px 0px 0px -150px;
     position: absolute;
     z-index: -1;
+        ${breakpoint.lg} {
+        margin: 0px 0px 0px -160px;
+        max-width: 520px;
+        }
         ${breakpoint.xl} {
         margin: 2px 8px 30px -95px;
-        max-width: 520px;
+        max-width: 530px;
         z-index: 0;
         }
 `;
 
 export const WrapperOrangeMirrorText = styled.div`
     display: inline-block;
-    margin: 15px 13px 52px -15px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    padding: 2px 110px 1px 20px;
+    margin: 50px 0px 0px -100px;
+    padding: 2px 11px 9px 8px;
     gap: 0px;
-    width: 50px;
-    height: 52px;
-    margin: 2px;
     width: calc( 50% -20px );
         ${breakpoint.xl} {
+        width: 50px;
+        height: 52px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

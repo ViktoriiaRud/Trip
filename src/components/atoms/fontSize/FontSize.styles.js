@@ -223,7 +223,7 @@ export const CombinedName = styled.h3`
 `;
 
 export const ExclusiveSubTitle = styled.h3`
-    padding: 50px;
+    padding: 90px;
     margin-top: 450px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -311,7 +311,7 @@ export const ExpeditionTitleYear = styled.h3`
 `;
 
 export const ExpeditionSubTitle = styled.h3`
-    margin: 0px 0px 35px 75px;
+    margin: 0px 0px 35px 55px;
     text-align: center;
     width: 200px;
     letter-spacing: 3px;
@@ -376,7 +376,7 @@ export const ExpeditionDollarTitle = styled.h2`
 
 export const ExpeditionCityTitle = styled.p`
     margin: 47px 0px 0px 35px;
-    max-width: 470px;
+    max-width: 300px;
     height: 54px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -384,10 +384,13 @@ export const ExpeditionCityTitle = styled.p`
     font-size: 20px;
     line-height: 32px;
     color: #333333;
+    ${breakpoint.xl} {
+        max-width: 470px;
+        }
 `;
 
 export const MirrorSubTitle = styled.h3`
-    margin: 40px 0px 0px 65px;
+    margin: 40px 0px 0px -28px;
     width: 100px;
     height: 32px;
     letter-spacing: 3px;
@@ -404,7 +407,7 @@ export const MirrorSubTitle = styled.h3`
 `;
 
 export const MirrorTitle = styled.h2`
-    margin: 17px 0px 30px 65px;
+    margin: 17px 0px 30px -120px;
     text-align: start;
     width: 300px;
     height: 128px;
@@ -422,21 +425,32 @@ export const MirrorTitle = styled.h2`
         font-size: 56px;
         line-height: 64px;
         } 
+        ${breakpoint.lg} {
+        margin: 0px 0px 30px 65px;
+        }
         ${breakpoint.xl} {
         margin: 0px 0px 30px 59px;
         }
 `;
 
 export const MirrorDescription = styled.p`
-    margin: 40px 0px 0px 65px;
-    width: 408px;
-    height: 64px;
+    margin: 46px 0px 0px -115px;
+    width: 315px;
+    height: 122px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 26px;
+    line-height: 42px;
     color: #333333;
+    ${breakpoint.xl} {
+        margin: 46px 0px 0px 65px;
+        width: 408px;
+        height: 64px;
+        font-size: 20px;
+        line-height: 32px;
+        color: #333333;
+        }
 `;
 
 export const MirrorsList = styled.h3`
@@ -452,7 +466,7 @@ export const MirrorsList = styled.h3`
 `;
 
 export const TestimonialsSubTitle = styled.h3`
-    width: 144px;
+    width: 200px;
     height: 32px;
     font-family: 'Open Sans';
     font-style: normal;

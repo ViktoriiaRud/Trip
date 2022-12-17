@@ -21,10 +21,13 @@ export const TestimonialsCards = styled.div`
 
 export const TestimonialsCard = styled.div`
     margin-top: 67px;
-    width: 354px;
+    width: 320px;
     height: 320px;
     background: #F5F6F8;
     gap: 20px;
+    ${breakpoint.xl} {
+        width: 354px;
+    }
 `;
 
 export const TestimonialsMarks = styled.div`

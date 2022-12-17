@@ -56,7 +56,7 @@ export const Button = styled.button`
 `;
 
 export const ButtonLight = styled.button`
-    margin: 60px 19px 5px 90px;
+    margin: 60px 19px 5px 73px;
     margin-top: 70px;
     width: 170px;
     height: 48px;
@@ -79,13 +79,13 @@ export const ButtonLight = styled.button`
         margin: 60px 19px 5px 242px;
     }
      ${breakpoint.xl} {
-        margin: 60px 19px 5px 642px;
+        margin: 60px 19px 5px 90px;
 }
 
 `;
 
 export const ButtonOrangMirror = styled.button`
-    margin: 140px 19px 9px 65px;
+    margin: 140px 19px 9px -57px;
     width: 154px;
     height: 48px;
     background-color: #F07C52;
@@ -101,6 +101,9 @@ export const ButtonOrangMirror = styled.button`
     &:hover {
     transform: translateY(-5px);
     background-color: #F14101;
+    }
+    ${breakpoint.xl} {
+        margin: 140px 19px 9px 65px;
     }
 `;
 

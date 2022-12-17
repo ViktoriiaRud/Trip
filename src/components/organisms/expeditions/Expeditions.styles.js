@@ -21,7 +21,7 @@ export const WrapperExpeditions = styled.div`
 `;
 
 export const WrapperCardsVila = styled.div`
-    max-width: 260px;
+    max-width: 320px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
