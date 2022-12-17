@@ -102,8 +102,11 @@ export const ButtonOrangMirror = styled.button`
     transform: translateY(-5px);
     background-color: #F14101;
     }
-    ${breakpoint.xl} {
+    ${breakpoint.md} {
         margin: 140px 19px 9px 65px;
+    }
+    ${breakpoint.xl} {
+        margin: 50px 19px 9px 85px;
     }
 `;
 

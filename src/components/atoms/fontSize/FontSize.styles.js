@@ -390,7 +390,7 @@ export const ExpeditionCityTitle = styled.p`
 `;
 
 export const MirrorSubTitle = styled.h3`
-    margin: 40px 0px 0px -28px;
+    margin: 40px 10px 0px -28px;
     width: 100px;
     height: 32px;
     letter-spacing: 3px;
@@ -401,6 +401,9 @@ export const MirrorSubTitle = styled.h3`
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
+    ${breakpoint.lg} {
+        margin: 40px 15px 0px 205px;
+        }
         ${breakpoint.xl} {
         margin: 40px 0px 0px 55px;
         }
@@ -426,7 +429,7 @@ export const MirrorTitle = styled.h2`
         line-height: 64px;
         } 
         ${breakpoint.lg} {
-        margin: 0px 0px 30px 65px;
+        margin: 0px 0px 30px 205px;
         }
         ${breakpoint.xl} {
         margin: 0px 0px 30px 59px;
@@ -443,6 +446,17 @@ export const MirrorDescription = styled.p`
     font-size: 26px;
     line-height: 42px;
     color: #333333;
+    ${breakpoint.md} {
+        margin: 46px 0px 0px 65px;
+        width: 408px;
+        height: 64px;
+        font-size: 20px;
+        line-height: 32px;
+        color: #333333;
+    }
+    ${breakpoint.lg} {
+        margin: 46px 0px 0px 205px;
+        }
     ${breakpoint.xl} {
         margin: 46px 0px 0px 65px;
         width: 408px;
@@ -454,7 +468,7 @@ export const MirrorDescription = styled.p`
 `;
 
 export const MirrorsList = styled.h3`
-    margin: -1px 3px 13px 20px;
+    margin: 0px 3px 13px 8px;
     width: 106px;
     height: 32px;
     font-family: 'Open Sans';
