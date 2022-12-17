@@ -78,6 +78,9 @@ export const ButtonLight = styled.button`
     ${breakpoint.md} {
         margin: 60px 19px 5px 242px;
     }
+    ${breakpoint.lg} {
+        margin: 60px 19px 9px 535px;
+    }
      ${breakpoint.xl} {
         margin: 60px 19px 5px 90px;
 }
@@ -104,6 +107,9 @@ export const ButtonOrangMirror = styled.button`
     }
     ${breakpoint.md} {
         margin: 140px 19px 9px 65px;
+    }
+    ${breakpoint.lg} {
+        margin: 50px 19px 9px 205px;
     }
     ${breakpoint.xl} {
         margin: 50px 19px 9px 85px;

@@ -82,6 +82,9 @@ export const CombinedAboutText = styled.h3`
         font-size: 16px;
         color: rgba(51, 51, 51, 0.49833);
         }
+        ${breakpoint.lg} { 
+        margin: 40px 0px 55px 96px;
+        }
         ${breakpoint.xl} {
         text-align: start; 
         margin: 40px 0px 55px 90px;
@@ -132,7 +135,7 @@ export const CombinedDescription = styled.p`
         }
         ${breakpoint.lg} {
         text-align: start;
-        margin: 0px 0px 30px 108px;
+        margin: 0px 0px 30px 96px;
         max-width: 400px;
         }
         ${breakpoint.xl} {
@@ -156,6 +159,9 @@ export const CombinedSubTitle = styled.h3`
         max-width: 170px;
         font-size: 24px;
         }
+        ${breakpoint.lg} { 
+        margin: 40px 0px 0px 200px;
+        }
         ${breakpoint.xl} {  
             text-align: start;
         margin: 0px 0px 10px 160px;
@@ -178,6 +184,11 @@ export const CombinedBookDescription = styled.h3`
         max-width: 300px;
         font-size: 16px;
         color: #333333;
+        }
+        ${breakpoint.lg} { 
+        margin: 10px 0px 0px 200px;
+        width: 370px;
+        color: rgba(51, 51, 51, 0.496405);
         }
         ${breakpoint.xl} {
         margin: 0px 0px 0px 160px;
@@ -329,7 +340,7 @@ export const ExpeditionSubTitle = styled.h3`
         color: rgba(51, 51, 51, 0.49833);
         }
         ${breakpoint.lg} {
-            margin: 150px 0px 55px 114px;
+            margin: 150px 0px 55px 520px;
             width: 205px;
             height: 32px;
         }
@@ -357,6 +368,9 @@ export const ExpeditionTitle = styled.h2`
         height: 128px;
         font-size: 56px;
         line-height: 64px;
+        }
+        ${breakpoint.lg} {
+        margin: 0px 0px 30px 325px;
         } 
 `;
 
