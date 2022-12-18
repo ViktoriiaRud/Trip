@@ -1,15 +1,23 @@
 import styled from 'styled-components';
 
+import { breakpoint } from '../../../theme/Breakpoints';
+
+import { size } from '../../../theme/Breakpoints';
+
 export const MyForm = styled.form`
     position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     gap: 30px;
     margin: 5px 5px 5px 5px;
     padding: 35px;
     width: 550px;
     min-height: 76px;
+    ${breakpoint.lg} {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+    }
     label {
         position: absolute;
         margin: 30px 5px 0px 45px;

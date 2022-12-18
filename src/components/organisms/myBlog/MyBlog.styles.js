@@ -11,8 +11,11 @@ export const WrapperBackgroundColor = styled.div`
 
 export const WrapperBackgroundItem = styled.div`
    margin-top: 120px;
-   max-width: 1440px;
-   height: 2250px;
+   max-width: 320px;
+   ${breakpoint.lg} {
+      max-width: 1440px;
+      height: 2250px;
+    }
 `;
 
 export const WrapperForm = styled.div`
@@ -22,7 +25,7 @@ export const WrapperForm = styled.div`
    flex-wrap: wrap;
    flex-direction: row;
    justify-content: space-between;
-   gap: 50px;
+   gap: 50px; 
 `;
 
 export const Span = styled.span`
@@ -33,16 +36,27 @@ export const Span = styled.span`
    background: #FFFFFF;
    mix-blend-mode: normal;
    opacity: 0.08;
+   ${breakpoint.lg} {
+      width: 1170px;
+    }
 `;
 
 export const WrapperBlockMonth = styled.div`
-   margin-top: 80px;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   max-width: 320px;
+   height: 1120px;
+   gap: 20px;  
+   ${breakpoint.lg} {
+      margin-top: 80px;
    display: flex;
    flex-direction: row;
    justify-content: center;
    max-width: 1170px;
    height: 560px;
-   gap: 70px;    
+   gap: 70px; 
+    }  
 `;
 
 export const BlockMonth = styled.div`
@@ -52,13 +66,28 @@ export const BlockMonth = styled.div`
    justify-content: center;
    max-width: 570px;
    height: 560px; 
-   background-color: #FFFFFF;
+   background-color: red;
+   ${'' /* background-color: #FFFFFF; */}
    gap: 30px;
+   ${breakpoint.lg} {
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   max-width: 570px;
+   height: 560px; 
+   background-color: #FFFFFF;
+
+    }
 `;
 
 export const BlockMonthText = styled.div`
    width: 570px;
-   height: 224px; 
+   height: 224px;
+      ${breakpoint.lg} {
+      width: 244px;
+      height: 247px;
+      } 
 `;
 
 export const CardPhoto = styled.div`
