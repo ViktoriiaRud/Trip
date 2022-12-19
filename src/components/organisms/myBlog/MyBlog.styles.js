@@ -82,11 +82,11 @@ export const BlockMonth = styled.div`
 `;
 
 export const BlockMonthText = styled.div`
-   width: 570px;
-   height: 224px;
+       width: 224px;
+       height: 247px;
       ${breakpoint.lg} {
-      width: 244px;
-      height: 247px;
+         width: 570px;
+         height: 224px;
       } 
 `;
 

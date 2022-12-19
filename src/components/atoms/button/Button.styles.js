@@ -117,8 +117,7 @@ export const ButtonOrangMirror = styled.button`
 `;
 
 export const ButtonBlogBlue = styled.button`
-    margin: 96px 0px 6px 143px;
-    position: absolute;
+    margin: 50px 29px 50px 78px;
     width: 170px;
     height: 48px;
     left: 850px;
@@ -138,6 +137,20 @@ export const ButtonBlogBlue = styled.button`
     color:  #11253A;
     border: 2px solid #FFFFFF;
      }
+
+     ${breakpoint.md} {
+        margin: 60px 19px 60px 65px;
+    }
+    ${breakpoint.lg} {
+        margin: 96px 0px 6px 143px;
+        position: absolute;
+    }
+    ${breakpoint.xl} {
+        margin: 50px 19px 9px 285px;
+    }
+    ${breakpoint.xxl} {
+        margin: 50px 19px 9px 805px;
+    }
 `;
 
 export const ButtonContact = styled.button`
