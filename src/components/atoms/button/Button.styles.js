@@ -133,7 +133,7 @@ export const ButtonBlogBlue = styled.button`
     cursor: pointer;
     &:hover {
     transform: translateY(-5px);
-    background-color: #FFFFFF;
+    background-color: #FFFgitFFF;
     color:  #11253A;
     border: 2px solid #FFFFFF;
      }

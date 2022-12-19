@@ -245,7 +245,7 @@ export const ExclusiveSubTitle = styled.h3`
     letter-spacing: 3px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.500821);
-    ${breakpoint.md} {
+        ${breakpoint.md} {
         margin-top: 150px;
         } 
 `;
@@ -340,12 +340,11 @@ export const ExpeditionSubTitle = styled.h3`
         color: rgba(51, 51, 51, 0.49833);
         }
         ${breakpoint.lg} {
-            margin: 150px 0px 55px 520px;
-            width: 205px;
-            height: 32px;
+        margin: 150px 0px 55px 520px;
+        width: 205px;
+        height: 32px;
         }
         ${breakpoint.xl} {
-        margin: 150px 0px 55px 114px;
         width: 300px;
         height: 32px;
         }
@@ -398,7 +397,7 @@ export const ExpeditionCityTitle = styled.p`
     font-size: 20px;
     line-height: 32px;
     color: #333333;
-    ${breakpoint.xl} {
+        ${breakpoint.xl} {
         max-width: 470px;
         }
 `;
@@ -415,7 +414,7 @@ export const MirrorSubTitle = styled.h3`
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    ${breakpoint.lg} {
+        ${breakpoint.lg} {
         margin: 40px 15px 0px 205px;
         }
         ${breakpoint.xl} {
@@ -460,18 +459,18 @@ export const MirrorDescription = styled.p`
     font-size: 26px;
     line-height: 42px;
     color: #333333;
-    ${breakpoint.md} {
+        ${breakpoint.md} {
         margin: 46px 0px 0px 65px;
         width: 408px;
         height: 64px;
         font-size: 20px;
         line-height: 32px;
         color: #333333;
-    }
-    ${breakpoint.lg} {
+        }
+        ${breakpoint.lg} {
         margin: 46px 0px 0px 205px;
         }
-    ${breakpoint.xl} {
+        ${breakpoint.xl} {
         margin: 46px 0px 0px 65px;
         width: 408px;
         height: 64px;
@@ -610,8 +609,7 @@ export const MonthText = styled.h4`
 `;
 
 export const MonthTitle = styled.h4`
-    width: 370px;
-    height: 64px;
+    width: 180px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -619,6 +617,10 @@ export const MonthTitle = styled.h4`
     line-height: 32px;
     color: #333333;
     letter-spacing: 3px;
+    ${breakpoint.lg} {
+        width: 370px;
+        height: 64px;
+    }
 `;
 
 export const MonthSubTitle = styled.h5`
@@ -637,9 +639,7 @@ export const MonthSubTitle = styled.h5`
 
 
 export const TextContact = styled.h5`
-    margin: 15px 0px 0px 37px;
-    width: 91px;
-    height: 32px;
+    width: 201px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -648,13 +648,16 @@ export const TextContact = styled.h5`
     letter-spacing: 3px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.500821);
+    ${breakpoint.lg} {
+        margin: 15px 0px 0px 37px;
+        width: 91px;
+        height: 32px;
+        }
 `;
 
 
 export const ContactTitle = styled.h5`
-    margin: 25px 0px 0px 37px;
-    width: 454px;
-    height: 128px;
+    width: 310px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
@@ -662,6 +665,11 @@ export const ContactTitle = styled.h5`
     line-height: 64px;
     letter-spacing: 12px;
     color: #FFFFFF;
+        ${breakpoint.lg} {
+            margin: 25px 0px 0px 37px;
+            width: 454px;
+            height: 128px;
+        }
 `;
 
 export const ContactSubTitle = styled.h5`

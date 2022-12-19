@@ -64,10 +64,9 @@ export const BlockMonth = styled.div`
    display: flex;
    flex-direction: row;
    justify-content: center;
-   max-width: 570px;
+   max-width: 320px;
    height: 560px; 
-   background-color: red;
-   ${'' /* background-color: #FFFFFF; */}
+   background-color: #FFFFFF;
    gap: 30px;
    ${breakpoint.lg} {
    position: relative;
@@ -77,12 +76,11 @@ export const BlockMonth = styled.div`
    max-width: 570px;
    height: 560px; 
    background-color: #FFFFFF;
-
     }
 `;
 
 export const BlockMonthText = styled.div`
-       width: 224px;
+       width: 320px;
        height: 247px;
       ${breakpoint.lg} {
          width: 570px;
@@ -91,27 +89,37 @@ export const BlockMonthText = styled.div`
 `;
 
 export const CardPhoto = styled.div`
-   margin: 210px 3px 3px 3px;
+   margin: 318px 3px 3px 3px;
    position: absolute;
    display: flex;
    flex-direction: row;
    justify-content: center;
-   width: 570px;
-   height: 376px;
+   width: 320px;
+   height: 234px;
    border-radius: 100%;
    z-index: 1;
    img {
       width: 100%;
-   }  
+   } 
+   ${breakpoint.lg} {
+      margin: 210px 3px 3px 3px;
+      width: 570px;
+      height: 376px;
+      } 
 `;
 
 export const BlockMonthPhoto = styled.div`
-   margin: 27px 31px 9px -31px;
-   width: 68px;
-   height: 68px;
+   margin: 27px 25px 30px -27px;
+   width: 63px;
+   height: 63px;
    img {
       width: 100%;
-   }  
+   }
+      ${breakpoint.md} {
+      margin: 27px 31px 9px -31px;
+      width: 68px;
+      height: 68px;
+    }   
 `;
 
 export const TextForm = styled.div`
@@ -128,8 +136,8 @@ export const TextForm = styled.div`
    line-height: 48px;
    letter-spacing: 8px;
    color: #FFFFFF;
-  }
-  h4 {
+   }
+   h4 {
    margin: 39px 24px 12px 16px;
    width: 419px;
    height: 32px;
