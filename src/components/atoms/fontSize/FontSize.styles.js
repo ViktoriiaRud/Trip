@@ -635,10 +635,8 @@ export const MonthSubTitle = styled.h5`
     color: rgba(51, 51, 51, 0.496405);
 `;
 
-
-
-
 export const TextContact = styled.h5`
+    margin-top: 60px;
     width: 201px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -673,15 +671,19 @@ export const ContactTitle = styled.h5`
 `;
 
 export const ContactSubTitle = styled.h5`
-    margin: 35px 0px 0px 37px;
-    width: 470px;
-    height: 35px;
+    margin: 20px 0px 0px 20px;
+    width: 280px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     color: #FFFFFF;
+        ${breakpoint.lg} {
+        margin: 35px 0px 0px 37px;
+        width: 470px;
+        height: 35px;
+        }
 `;
 
 

@@ -67,7 +67,6 @@ const MyBlog = () => {
 
                 <WrapperMapText>
                     <Map>
-
                         <WhitSquare>
                             <h3>875 School Street Ormond Beach, FL 32174</h3>
                         </WhitSquare>
@@ -76,8 +75,6 @@ const MyBlog = () => {
                         </Marker>
                         <img src={MapImg} alt="map" />
                     </Map>
-
-
                     <Text>
                         <TextContact>Contact</TextContact>
                         <ContactTitle>Get In Touch With Us</ContactTitle>

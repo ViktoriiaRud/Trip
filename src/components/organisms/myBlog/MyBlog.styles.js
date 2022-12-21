@@ -12,10 +12,11 @@ export const WrapperBackgroundColor = styled.div`
 export const WrapperBackgroundItem = styled.div`
    margin-top: 120px;
    max-width: 320px;
-   ${breakpoint.lg} {
+   height: 3500px;
+      ${breakpoint.lg} {
       max-width: 1440px;
-      height: 2250px;
-    }
+      height: 2200px;
+      }
 `;
 
 export const WrapperForm = styled.div`
@@ -31,7 +32,7 @@ export const WrapperForm = styled.div`
 export const Span = styled.span`
    margin-top: 90px;
    display: block;
-   width: 1170px;
+   width: 260px;
    height: 5px;
    background: #FFFFFF;
    mix-blend-mode: normal;
@@ -46,17 +47,16 @@ export const WrapperBlockMonth = styled.div`
    display: flex;
    flex-direction: column;
    max-width: 320px;
-   height: 1120px;
    gap: 20px;  
-   ${breakpoint.lg} {
+      ${breakpoint.lg} {
       margin-top: 80px;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   max-width: 1170px;
-   height: 560px;
-   gap: 70px; 
-    }  
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      max-width: 1170px;
+      height: 560px;
+      gap: 70px; 
+      }  
 `;
 
 export const BlockMonth = styled.div`
@@ -68,21 +68,21 @@ export const BlockMonth = styled.div`
    height: 560px; 
    background-color: #FFFFFF;
    gap: 30px;
-   ${breakpoint.lg} {
-   position: relative;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   max-width: 570px;
-   height: 560px; 
-   background-color: #FFFFFF;
-    }
+      ${breakpoint.lg} {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      max-width: 570px;
+      height: 560px; 
+      background-color: #FFFFFF;
+      }
 `;
 
 export const BlockMonthText = styled.div`
        width: 320px;
        height: 247px;
-      ${breakpoint.lg} {
+         ${breakpoint.lg} {
          width: 570px;
          height: 224px;
       } 
@@ -101,7 +101,7 @@ export const CardPhoto = styled.div`
    img {
       width: 100%;
    } 
-   ${breakpoint.lg} {
+      ${breakpoint.lg} {
       margin: 210px 3px 3px 3px;
       width: 570px;
       height: 376px;
@@ -126,7 +126,7 @@ export const TextForm = styled.div`
    display: inline-block;
    margin: 10px 20px 12px 15px;
    h3 {
-   margin: 39px 24px 12px 16px;
+   margin: 0px 24px 12px 16px;
    width: 270px;
    height: 48px;
    font-family: 'Lexend Zetta';
@@ -139,23 +139,37 @@ export const TextForm = styled.div`
    }
    h4 {
    margin: 39px 24px 12px 16px;
-   width: 419px;
+   width: 280px;
    height: 32px;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
-   font-size: 16px;
+   font-size: 22px;
    line-height: 32px;
    color: rgba(255, 255, 255, 0.502972);
   } 
+
+  ${breakpoint.lg} {
+   h3 {
+   margin: 39px 24px 12px 16px;
+   width: 270px;
+   height: 48px;
+   }
+   h4 {
+   margin: 39px 24px 12px 16px;
+   width: 419px;
+   height: 32px;
+   font-size: 16px;
+  } 
+    } 
 `;
 
 export const WrapperMapText = styled.div`
-   margin-top: 150px;
+   margin-top: 100px;
    display: flex;
    flex-direction: column;
-   max-width: 320px;
-   gap: 70px;   
+   max-width: 320px; 
+   height: 560px;  
       ${breakpoint.lg} {
       margin-top: 150px;
       display: flex;
@@ -167,12 +181,10 @@ export const WrapperMapText = styled.div`
     } 
 `;
 
-
-
 export const Map = styled.div`
-position: relative;
+   position: relative;
    max-width: 320px;
-   height: 310px;
+   height: 560px;
    img {
       width: 100%;
    }

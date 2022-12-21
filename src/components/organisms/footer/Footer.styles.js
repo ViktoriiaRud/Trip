@@ -9,8 +9,8 @@ export const FooterColor = styled.div`
 `;
 
 export const WrapperFooter = styled.div`
-    max-width: 1440px;
-    height: 432px;
+    max-width: 320px;
+    max-height: 1202px;
     h3 {
     margin: 30px 1px 10px 0px;
     width: 70px;
@@ -24,6 +24,10 @@ export const WrapperFooter = styled.div`
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.500821);
     }
+      ${breakpoint.lg} {
+      max-width: 1440px;
+      max-height: 432px;
+      }
 
     ${'' /* ${breakpoint.xs} {
       background-color: red;
@@ -66,17 +70,26 @@ export const LogoText = styled.div`
     font-weight: 400;
     font-size: 40px;
     color: #FFFFFF;
+    ${'' /* ${breakpoint.lg} {
+      background-color: black;
+    } */}
 `;
 
 export const WrapperFooterList = styled.div`
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1200px;
-    height: 340px;
+    flex-direction: column;
+    width: 320px;
+    height: 1040px;
     gap: 50px;
-  `;
+        ${breakpoint.lg} {
+        width: 1200px;
+        height: 340px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+`;
 
 export const FooterList1 = styled.div`
     margin: 120px 1px 12px 340px;
@@ -113,7 +126,10 @@ export const FooterLink2 = styled.a`
   `;
 
 export const WrapperSocial = styled.div`
-    margin: 120px 1px 12px 10px;
+    margin: 520px 1px 12px 10px;
+    ${breakpoint.lg} {
+      margin: 120px 1px 12px 10px;
+    }
 `;
 
 export const Facebook = styled.div`
