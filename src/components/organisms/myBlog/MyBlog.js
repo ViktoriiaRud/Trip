@@ -74,7 +74,6 @@ const MyBlog = () => {
                         <Marker>
                             <img src={MarkerImg} alt="Marker" />
                         </Marker>
-
                         <img src={MapImg} alt="map" />
                     </Map>
 

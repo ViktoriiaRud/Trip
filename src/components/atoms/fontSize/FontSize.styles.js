@@ -657,11 +657,11 @@ export const TextContact = styled.h5`
 
 
 export const ContactTitle = styled.h5`
-    width: 310px;
+    width: 250px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 40px;
     line-height: 64px;
     letter-spacing: 12px;
     color: #FFFFFF;

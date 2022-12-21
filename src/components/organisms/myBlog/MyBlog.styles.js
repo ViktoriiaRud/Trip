@@ -153,25 +153,46 @@ export const TextForm = styled.div`
 export const WrapperMapText = styled.div`
    margin-top: 150px;
    display: flex;
-   flex-direction: row;
-   justify-content: center;
-   max-width: 1170px;
-   height: 560px;
-   gap: 70px;    
+   flex-direction: column;
+   max-width: 320px;
+   gap: 70px;   
+      ${breakpoint.lg} {
+      margin-top: 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      max-width: 1170px;
+      height: 560px;
+      gap: 70px;
+    } 
 `;
+
+
 
 export const Map = styled.div`
 position: relative;
-   max-width: 570px;
-   height: 560px;
+   max-width: 320px;
+   height: 310px;
    img {
       width: 100%;
    }
+   ${breakpoint.lg} {
+      position: relative;
+      max-width: 570px;
+      height: 560px;
+      img {
+      width: 100%;
+   }
+    }
 `;
 
 export const Text = styled.div`
-   max-width: 570px;
-   height: 560px;
+   max-width: 320px;
+   height: 310px;
+      ${breakpoint.lg} {
+      max-width: 570px;
+      height: 560px;
+      }
 `;
 
 export const WrapperEmailText = styled.div`
@@ -243,9 +264,9 @@ export const EmailTextItem = styled.div`
 `;
 
 export const WhitSquare = styled.div`
-   margin: 140px 14px 17px 179px;
+   margin: 14px 23px 27px 80px;
    position: absolute;
-   max-width: 270px;
+   max-width: 205px;
    height: 144px;
    background-color: #FFFFFF;  
    z-index: 1;
@@ -269,15 +290,21 @@ export const WhitSquare = styled.div`
       font-size: 16px;
       line-height: 32px;
       color: #333333;
-   }   
+   } 
+   ${breakpoint.lg} {
+      margin: 140px 14px 17px 179px;
+      position: absolute;
+      max-width: 270px;
+      height: 144px;
+    }  
 `;
 
 export const Marker = styled.div`
-    margin: 312px 2px 7px 254px;
+    margin: 180px 2px 7px 166px;
     position: absolute; 
     background-color: #FFFFFF;   
-    max-width: 48px;
-    height:  48px;
+    max-width: 28px;
+    height:  28px;
     z-index: 1;
     box-sizing: border-box;
     border-radius: 24px 24px;
@@ -286,4 +313,19 @@ export const Marker = styled.div`
       box-sizing: border-box;
       border-radius: 24px 24px;
     }
+      ${breakpoint.lg} {
+      margin: 312px 2px 7px 254px;
+      position: absolute; 
+      background-color: #FFFFFF;   
+      max-width: 48px;
+      height:  48px;
+      z-index: 1;
+      box-sizing: border-box;
+      border-radius: 24px 24px;
+      img {
+         width: 100%;
+         box-sizing: border-box;
+         border-radius: 24px 24px;
+      }
+      }
 `;
