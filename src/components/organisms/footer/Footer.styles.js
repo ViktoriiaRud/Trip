@@ -60,7 +60,7 @@ export const WrapperFooter = styled.div`
 `;
 
 export const LogoText = styled.div`
-    margin-top: 80px;
+    margin-top: 50px;
     position: absolute;
     width: 93px;
     height: 48px;
@@ -70,9 +70,12 @@ export const LogoText = styled.div`
     font-weight: 400;
     font-size: 40px;
     color: #FFFFFF;
-    ${'' /* ${breakpoint.lg} {
-      background-color: black;
-    } */}
+    ${breakpoint.lg} {
+      margin-top: 80px;
+    position: absolute;
+    width: 93px;
+    height: 48px;
+    }
 `;
 
 export const WrapperFooterList = styled.div`
@@ -92,19 +95,38 @@ export const WrapperFooterList = styled.div`
 `;
 
 export const FooterList1 = styled.div`
-    margin: 120px 1px 12px 340px;
+    margin: 100px 1px 12px 100px;
     width: 220px;
     height: 48px;
+    ${breakpoint.lg} {
+      margin: 120px 1px 12px 340px;
+    width: 220px;
+    height: 48px;
+    }
 `;
 
 export const FooterList2 = styled.div`
-    margin: 120px 1px 12px 50px;
+    margin: 100px 1px 12px 100px;
     width: 220px;
     height: 48px;
+    ${breakpoint.lg} {
+      margin: 120px 1px 12px 50px;
+    width: 220px;
+    height: 48px;
+    }
 `;
 
 export const FooterLink = styled.a`
-    width: 353px;
+    width: 300px;
+    height: 32px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    ${breakpoint.lg} {
+      width: 353px;
     height: 32px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -112,21 +134,29 @@ export const FooterLink = styled.a`
     font-size: 16px;
     line-height: 32px;
     color: #FFFFFF;
+    }
   `;
 
 export const FooterLink2 = styled.a`
-    width: 353px;
+    width: 300px;
     height: 32px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    ${breakpoint.lg} {
+      width: 353px;
+    height: 32px;
     font-size: 16px;
     line-height: 32px;
     color: #FFFFFF;
+    }
   `;
 
 export const WrapperSocial = styled.div`
-    margin: 520px 1px 12px 10px;
+    margin: 103px 1px 12px 105px;
     ${breakpoint.lg} {
       margin: 120px 1px 12px 10px;
     }
@@ -148,9 +178,15 @@ export const Facebook = styled.div`
 
 export const Social = styled.div`
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    ${breakpoint.lg} {
+      display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
+    }
 `;
 
 
