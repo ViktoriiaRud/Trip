@@ -414,6 +414,9 @@ export const MirrorSubTitle = styled.h3`
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
+        ${breakpoint.md} {
+        margin: 40px 10px 0px 35px;
+        }
         ${breakpoint.lg} {
         margin: 40px 15px 0px 205px;
         }
@@ -435,14 +438,15 @@ export const MirrorTitle = styled.h2`
     color: #333333;
     letter-spacing: 9px;
         ${breakpoint.md} {
-        margin: 0px 0px 30px 114px;
-        width: 520px;
+        margin: 0px 0px 30px 35px;
+        width: 300px;
         height: 128px;
-        font-size: 56px;
-        line-height: 64px;
+        font-size: 46px;
         } 
         ${breakpoint.lg} {
-        margin: 0px 0px 30px 205px;
+        margin: 0px 0px 0px 205px;
+        width: 400px;
+        font-size: 56px;
         }
         ${breakpoint.xl} {
         margin: 0px 0px 30px 59px;
@@ -460,23 +464,20 @@ export const MirrorDescription = styled.p`
     line-height: 42px;
     color: #333333;
         ${breakpoint.md} {
-        margin: 46px 0px 0px 65px;
-        width: 408px;
+        margin: 0px 0px 0px 35px;
+        width: 225px;
         height: 64px;
         font-size: 20px;
         line-height: 32px;
-        color: #333333;
         }
         ${breakpoint.lg} {
-        margin: 46px 0px 0px 205px;
+        width: 408px;
+        margin: 20px 0px 0px 205px;
         }
         ${breakpoint.xl} {
-        margin: 46px 0px 0px 65px;
+        margin: 36px 0px 0px 65px;
         width: 408px;
         height: 64px;
-        font-size: 20px;
-        line-height: 32px;
-        color: #333333;
         }
 `;
 
@@ -521,7 +522,7 @@ export const TestimonialsTitle = styled.h2`
         width: 576px;
         height: 128px;
         font-size: 56px;
-        } 
+        }  
 `;
 
 export const TestimonialsText = styled.p`

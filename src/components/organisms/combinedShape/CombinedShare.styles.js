@@ -69,10 +69,10 @@ export const WrapperOrange = styled.div`
         ${breakpoint.md} {
         margin-top: 120px;
         left: -75px;
-    }
+        }
         ${breakpoint.xl} {
         margin: 120px 0px 14px 79px;
-    }
+        }
 `;
 
 export const WrapperBridge = styled.div`

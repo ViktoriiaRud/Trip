@@ -70,10 +70,14 @@ export const Logo = styled.div`
     font-weight: 400;
     font-size: 40px;
     color: #FFFFFF;
- ${breakpoint.md} {
-    margin-top: 6px;
-    left: 25px;
- }
+        ${breakpoint.sm} {
+        padding: 0px 13px 14px 51px;
+        }
+        ${breakpoint.md} {
+        padding: 0px 13px 14px 6px;
+        margin-top: 6px;
+        left: 25px;
+        }
 `;
 
 export const ColorFilet = styled.div`

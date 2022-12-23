@@ -5,14 +5,12 @@ import { breakpoint } from '../../../theme/Breakpoints';
 import { size } from '../../../theme/Breakpoints';
 
 
-
-
 export const MyPhotoMirror = styled.div`
     margin: 0px 5px 10px -200px;
     width: 300px;
     ${breakpoint.md} {
-        width: 440px;
-        margin: 0px 5px 10px -90px;
+        width: 350px;
+        margin: 0px 5px 10px -123px;
     }
     ${breakpoint.lg} {
         width: 440px;
@@ -33,7 +31,7 @@ export const CombinedMirror = styled.div`
         max-width: 1000px;
         }
         ${breakpoint.lg} {
-            max-width: 1050px;
+        max-width: 1050px;
         }
         ${breakpoint.xl} {
         margin-top: 120px;
@@ -47,6 +45,13 @@ export const WrapperCombinedMirror = styled.div`
        img { 
        max-width: 300px;
        }
+       ${breakpoint.md} {
+        max-width: 520px;
+        img { 
+            max-width: 450px;
+        }
+        }
+       
         ${breakpoint.lg} {
         max-width: 620px;
         img { 
@@ -79,6 +84,10 @@ export const WrapperBridgeMirror = styled.div`
     margin: 0px 0px 0px -150px;
     position: absolute;
     z-index: -1;
+    ${breakpoint.lg} {
+        margin: 0px 0px 0px -160px;
+        max-width: 420px;
+        }
         ${breakpoint.lg} {
         margin: 0px 0px 0px -160px;
         max-width: 520px;
@@ -96,6 +105,11 @@ export const WrapperOrangeMirrorText = styled.div`
     padding: 2px 11px 9px 8px;
     gap: 0px;
     width: calc( 50% -20px );
+    ${breakpoint.md} {
+        display: flex;
+        margin: 50px 0px 0px -34px;
+        padding: 2px 11px 9px 0px;
+        }
     ${breakpoint.lg} {
         width: 50px;
         height: 52px;
