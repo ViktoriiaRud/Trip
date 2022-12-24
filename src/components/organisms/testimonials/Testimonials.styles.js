@@ -50,6 +50,15 @@ export const TestimonialsItems = styled.div`
 export const TestimonialsItem = styled.div`
     margin: 48px 227px 0px 0px;
     width: 215px;
+        ${breakpoint.md} {
+        margin: 48px 227px 0px 0px;
+        margin: 48px 32px 23px 60px;
+        width: 795px;
+        }
+        ${breakpoint.lg} {
+        margin: 48px 227px 0px 0px;
+        width: 215px; 
+        }  
 `;
 
 export const TestimonialsItemPhoto = styled.div`

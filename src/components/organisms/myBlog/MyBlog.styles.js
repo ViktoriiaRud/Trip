@@ -229,7 +229,7 @@ export const Phone = styled.div`
 
 export const NumberPhone = styled.div`
    h4 {
-   width: 396px;
+   width: 200px;
    height: 25px;
    font-family: 'Open Sans';
    font-style: normal;
@@ -256,7 +256,7 @@ export const Email = styled.div`
 
 export const EmailText = styled.div`
    h5 {
-      width: 378px;
+      width: 200px;
       height: 32px;
       font-family: 'Open Sans';
       font-style: normal;

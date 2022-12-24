@@ -106,7 +106,7 @@ export const ButtonOrangMirror = styled.button`
     background-color: #F14101;
     }
     ${breakpoint.md} {
-        margin: 140px 19px 9px 65px;
+        margin: 35px 19px 9px 65px;
     }
     ${breakpoint.lg} {
         margin: 50px 19px 9px 205px;

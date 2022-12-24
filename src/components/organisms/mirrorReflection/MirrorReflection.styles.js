@@ -28,7 +28,7 @@ export const CombinedMirror = styled.div`
     margin-top: 150px;
         ${breakpoint.md} {
         margin-top: 100px;
-        max-width: 1000px;
+        max-width: 750px;
         }
         ${breakpoint.lg} {
         max-width: 1050px;
@@ -48,10 +48,9 @@ export const WrapperCombinedMirror = styled.div`
        ${breakpoint.md} {
         max-width: 520px;
         img { 
-            max-width: 450px;
+            max-width: 360px;
         }
         }
-       
         ${breakpoint.lg} {
         max-width: 620px;
         img { 
@@ -136,6 +135,9 @@ export const OrangeMirror = styled.div`
     border: 5px;
     gap: 15px;
     border: solid #F07C52 1px;
+    ${breakpoint.md} {
+    margin: 0px 90px 0px 88px;
+    }
     ${breakpoint.lg} {
     margin: 22px 160px 3px 10px;
     gap: 5px;
