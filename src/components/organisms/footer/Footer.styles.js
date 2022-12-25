@@ -24,39 +24,13 @@ export const WrapperFooter = styled.div`
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.500821);
     }
-      ${breakpoint.lg} {
-      max-width: 1440px;
-      max-height: 432px;
-      }
-
-    ${'' /* ${breakpoint.xs} {
-      background-color: red;
-    }
-
-    
-    ${breakpoint.sm} {
-      background-color: blue;
-    }
-
-
-    ${breakpoint.md} {
-      background-color: green;
-    } */}
-
-
-    ${'' /* ${breakpoint.lg} {
-      background-color: black;
-    } */}
-
-    ${'' /* ${breakpoint.xl} {
-      background-color: pink;
-    } */}
-
-
-    ${'' /* ${breakpoint.xxl} {
-      background-color: yellow;
-    } */}
-  
+		${breakpoint.lg} {
+		max-width: 1440px;
+		max-height: 432px;
+		}
+		${breakpoint.md} {
+		background-color: green;
+		}   
 `;
 
 export const LogoText = styled.div`
@@ -70,12 +44,12 @@ export const LogoText = styled.div`
     font-weight: 400;
     font-size: 40px;
     color: #FFFFFF;
-    ${breakpoint.lg} {
-      margin-top: 80px;
-    position: absolute;
-    width: 93px;
-    height: 48px;
-    }
+		${breakpoint.lg} {
+		margin-top: 80px;
+		position: absolute;
+		width: 93px;
+		height: 48px;
+		}
 `;
 
 export const WrapperFooterList = styled.div`
@@ -85,35 +59,35 @@ export const WrapperFooterList = styled.div`
     width: 320px;
     height: 1040px;
     gap: 50px;
-        ${breakpoint.lg} {
-        width: 1200px;
-        height: 340px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        }
+		${breakpoint.lg} {
+		width: 1200px;
+		height: 340px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		}
 `;
 
 export const FooterList1 = styled.div`
     margin: 100px 1px 12px 100px;
     width: 220px;
     height: 48px;
-    ${breakpoint.lg} {
-      margin: 120px 1px 12px 340px;
-    width: 220px;
-    height: 48px;
-    }
+		${breakpoint.lg} {
+		margin: 120px 1px 12px 340px;
+		width: 220px;
+		height: 48px;
+		}
 `;
 
 export const FooterList2 = styled.div`
     margin: 100px 1px 12px 100px;
     width: 220px;
     height: 48px;
-    ${breakpoint.lg} {
-      margin: 120px 1px 12px 50px;
-    width: 220px;
-    height: 48px;
-    }
+		${breakpoint.lg} {
+		margin: 120px 1px 12px 50px;
+		width: 220px;
+		height: 48px;
+		}
 `;
 
 export const FooterLink = styled.a`
@@ -125,16 +99,16 @@ export const FooterLink = styled.a`
     font-size: 20px;
     line-height: 32px;
     color: #FFFFFF;
-    ${breakpoint.lg} {
-      width: 353px;
-    height: 32px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    color: #FFFFFF;
-    }
+		${breakpoint.lg} {
+		width: 353px;
+		height: 32px;
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		color: #FFFFFF;
+		}
   `;
 
 export const FooterLink2 = styled.a`
@@ -146,20 +120,20 @@ export const FooterLink2 = styled.a`
     font-size: 20px;
     line-height: 32px;
     color: #FFFFFF;
-    ${breakpoint.lg} {
-      width: 353px;
-    height: 32px;
-    font-size: 16px;
-    line-height: 32px;
-    color: #FFFFFF;
-    }
+		${breakpoint.lg} {
+		width: 353px;
+		height: 32px;
+		font-size: 16px;
+		line-height: 32px;
+		color: #FFFFFF;
+		}
   `;
 
 export const WrapperSocial = styled.div`
     margin: 103px 1px 12px 105px;
-    ${breakpoint.lg} {
-      margin: 120px 1px 12px 10px;
-    }
+		${breakpoint.lg} {
+		margin: 120px 1px 12px 10px;
+		}
 `;
 
 export const Facebook = styled.div`
@@ -171,8 +145,8 @@ export const Facebook = styled.div`
    height: 48px;
    margin: 25px 12px 7px 29px;
    img {
-    width: 18px;
-    height: 18px;
+	width: 18px;
+	height: 18px;
    }
   `;
 
@@ -181,12 +155,12 @@ export const Social = styled.div`
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
-    ${breakpoint.lg} {
-      display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 10px;
-    }
+		${breakpoint.lg} {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 10px;
+		}
 `;
 
 

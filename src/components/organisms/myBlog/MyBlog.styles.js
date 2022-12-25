@@ -37,9 +37,9 @@ export const Span = styled.span`
    background: #FFFFFF;
    mix-blend-mode: normal;
    opacity: 0.08;
-   ${breakpoint.lg} {
+      ${breakpoint.lg} {
       width: 1170px;
-    }
+      }
 `;
 
 export const WrapperBlockMonth = styled.div`
@@ -80,16 +80,16 @@ export const BlockMonth = styled.div`
 `;
 
 export const BlockMonthText = styled.div`
-       width: 320px;
-       height: 247px;
-         ${breakpoint.lg} {
-         width: 570px;
-         height: 224px;
+   width: 320px;
+   height: 247px;
+      ${breakpoint.lg} {
+      width: 570px;
+      height: 224px;
       } 
 `;
 
 export const CardPhoto = styled.div`
-   margin: 318px 3px 3px 3px;
+   margin: 328px 3px 3px 3px;
    position: absolute;
    display: flex;
    flex-direction: row;
@@ -148,20 +148,19 @@ export const TextForm = styled.div`
    line-height: 32px;
    color: rgba(255, 255, 255, 0.502972);
   } 
-
-  ${breakpoint.lg} {
-   h3 {
-   margin: 39px 24px 12px 16px;
-   width: 270px;
-   height: 48px;
-   }
-   h4 {
-   margin: 39px 24px 12px 16px;
-   width: 419px;
-   height: 32px;
-   font-size: 16px;
-  } 
-    } 
+      ${breakpoint.lg} {
+         h3 {
+         margin: 39px 24px 12px 16px;
+         width: 270px;
+         height: 48px;
+         }
+         h4 {
+         margin: 39px 24px 12px 16px;
+         width: 419px;
+         height: 32px;
+         font-size: 16px;
+         } 
+      } 
 `;
 
 export const WrapperMapText = styled.div`
@@ -188,14 +187,14 @@ export const Map = styled.div`
    img {
       width: 100%;
    }
-   ${breakpoint.lg} {
+      ${breakpoint.lg} {
       position: relative;
       max-width: 570px;
       height: 560px;
       img {
       width: 100%;
-   }
-    }
+      }
+      }
 `;
 
 export const Text = styled.div`
@@ -303,12 +302,12 @@ export const WhitSquare = styled.div`
       line-height: 32px;
       color: #333333;
    } 
-   ${breakpoint.lg} {
-      margin: 140px 14px 17px 179px;
-      position: absolute;
-      max-width: 270px;
-      height: 144px;
-    }  
+      ${breakpoint.lg} {
+         margin: 140px 14px 17px 179px;
+         position: absolute;
+         max-width: 270px;
+         height: 144px;
+      }  
 `;
 
 export const Marker = styled.div`

@@ -5,22 +5,22 @@ import { breakpoint } from '../../../theme/Breakpoints';
 import { size } from '../../../theme/Breakpoints';
 
 export const Title = styled.h1`
-        width: 320px;
-        font-size: 40px;
-        margin-top: 15px;
+    width: 320px;
+    font-size: 40px;
+    margin-top: 15px;
+    max-height: 100px;
+    font-family: 'Lexend Zetta';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px;
+    text-align: center; 
+    color: #FFFFFF;
+        ${breakpoint.md} {
+        width: 680px;
+        font-size: 64px;
         max-height: 100px;
-        font-family: 'Lexend Zetta';
-        font-style: normal;
-        font-weight: 600;
-        line-height: 78px;
-        text-align: center; 
-        color: #FFFFFF;
-            ${breakpoint.md} {
-            width: 680px;
-            font-size: 64px;
-            max-height: 100px;
-            line-height: 64px;
-            }
+        line-height: 64px;
+        }
 `;
 
 export const PromoSubTitle = styled.h3`
@@ -313,11 +313,11 @@ export const ExclusiveDollar = styled.h2`
     line-height: 100px;
     letter-spacing: 9px;
     color: #FFFFFF;
-    ${breakpoint.md} {
+        ${breakpoint.md} {
         font-size: 40px;
         }
         ${breakpoint.lg} {
-        font-size: 60px;
+        font-size: 40px;
         }  
 `;
 
@@ -640,10 +640,10 @@ export const MonthTitle = styled.h4`
     line-height: 32px;
     color: #333333;
     letter-spacing: 3px;
-    ${breakpoint.lg} {
+        ${breakpoint.lg} {
         width: 370px;
         height: 64px;
-    }
+        }
 `;
 
 export const MonthSubTitle = styled.h5`
@@ -669,13 +669,12 @@ export const TextContact = styled.h5`
     letter-spacing: 3px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.500821);
-    ${breakpoint.lg} {
+        ${breakpoint.lg} {
         margin: 15px 0px 0px 37px;
         width: 91px;
         height: 32px;
         }
 `;
-
 
 export const ContactTitle = styled.h5`
     width: 250px;
@@ -687,13 +686,14 @@ export const ContactTitle = styled.h5`
     letter-spacing: 12px;
     color: #FFFFFF;
         ${breakpoint.md} {
-        margin: 35px 0px 0px 37px;
+        margin: 35px 0px 0px 0px;
+        width: 500px;
         font-size: 40px;
         }
         ${breakpoint.lg} {
-            margin: 25px 0px 0px 37px;
-            width: 454px;
-            height: 128px;
+        margin: 25px 0px 0px 37px;
+        width: 454px;
+        height: 128px;
         }
 `;
 
@@ -706,13 +706,15 @@ export const ContactSubTitle = styled.h5`
     font-size: 20px;
     line-height: 32px;
     color: #FFFFFF;
-    ${breakpoint.md} {
-        margin: 35px 0px 0px 37px;
-        width: 470px;
+        ${breakpoint.md} {
+        margin: 35px 0px 0px 0px;
+        width: 400px;
         height: 35px;
         }
         ${breakpoint.lg} {
         margin: 35px 0px 0px 37px;
+        width: 470px;
+        height: 35px;
         }
        
 `;

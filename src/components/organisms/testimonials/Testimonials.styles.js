@@ -6,17 +6,17 @@ import { size } from '../../../theme/Breakpoints';
 
 
 export const WrapperTestimonials = styled.div`
-max-width: 1440px;
-margin-top: 20px;
+    max-width: 1440px;
+    margin-top: 20px;
 `;
 
 export const TestimonialsCards = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    ${breakpoint.lg} {
-    flex-direction: row;
-    }
+        ${breakpoint.lg} {
+        flex-direction: row;
+        }
 `;
 
 export const TestimonialsCard = styled.div`
@@ -25,9 +25,9 @@ export const TestimonialsCard = styled.div`
     height: 320px;
     background: #F5F6F8;
     gap: 20px;
-    ${breakpoint.xl} {
+        ${breakpoint.xl} {
         width: 354px;
-    }
+        }
 `;
 
 export const TestimonialsMarks = styled.div`
@@ -42,18 +42,17 @@ export const TestimonialsItems = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    ${breakpoint.lg} {
-    flex-direction: row;
-    }
+        ${breakpoint.lg} {
+        flex-direction: row;
+        }
 `;
 
 export const TestimonialsItem = styled.div`
     margin: 48px 227px 0px 0px;
     width: 215px;
         ${breakpoint.md} {
-        margin: 48px 227px 0px 0px;
-        margin: 48px 32px 23px 60px;
-        width: 795px;
+        margin: 60px 32px 8px 202px;
+        width: 800px;
         }
         ${breakpoint.lg} {
         margin: 48px 227px 0px 0px;
