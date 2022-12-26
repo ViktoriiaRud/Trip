@@ -28,9 +28,7 @@ export const WrapperFooter = styled.div`
 		max-width: 1440px;
 		max-height: 432px;
 		}
-		${breakpoint.md} {
-		background-color: green;
-		}   
+	
 `;
 
 export const LogoText = styled.div`
@@ -145,9 +143,9 @@ export const Facebook = styled.div`
    height: 48px;
    margin: 25px 12px 7px 29px;
    img {
-	width: 18px;
-	height: 18px;
-   }
+    width: 18px;
+    height: 18px;
+    }
   `;
 
 export const Social = styled.div`

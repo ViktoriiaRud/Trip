@@ -8,7 +8,6 @@ export const RowStyle = styled(Row)`
     margin:0;
 `
 export const Combined = styled.div`
-      margin-top: 50px;
       max-width: 360px;
         ${breakpoint.md} {
         margin-top: 100px;

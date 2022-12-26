@@ -23,18 +23,18 @@ export const WrapperCards = styled.div`
     img {
         max-width: 100%;
     }
-    ${breakpoint.md} {
+        ${breakpoint.md} {
         max-width: 1260px;
         flex-direction: row;
-    }
+        }
 `;
 
 export const WrapperItem = styled.div`
     position: relative;
     border-radius: 3px;
-    ${breakpoint.xl} {
+        ${breakpoint.xl} {
         width: 370px;
-    }
+        }
 `;
 
 export const BackgroundOrange = styled.div`

@@ -236,7 +236,10 @@ export const NumberPhone = styled.div`
    font-size: 24px;
    line-height: 50px;
    color: #FFFFFF;
-   }  
+      ${breakpoint.lg} {
+      width: 350px;
+      } 
+   }   
 `;
 
 export const Email = styled.div`
@@ -263,7 +266,10 @@ export const EmailText = styled.div`
       font-size: 16px;
       line-height: 53px;
       color: rgba(255, 255, 255, 0.502972);
-   }
+         ${breakpoint.lg} {
+         width: 350px;
+         }
+   }    
 `;
 
 export const EmailTextItem = styled.div`
@@ -311,19 +317,19 @@ export const WhitSquare = styled.div`
 `;
 
 export const Marker = styled.div`
-    margin: 180px 2px 7px 166px;
-    position: absolute; 
-    background-color: #FFFFFF;   
-    max-width: 28px;
-    height:  28px;
-    z-index: 1;
-    box-sizing: border-box;
-    border-radius: 24px 24px;
-    img {
+   margin: 180px 2px 7px 166px;
+   position: absolute; 
+   background-color: #FFFFFF;   
+   max-width: 28px;
+   height:  28px;
+   z-index: 1;
+   box-sizing: border-box;
+   border-radius: 24px 24px;
+   img {
       width: 100%;
       box-sizing: border-box;
       border-radius: 24px 24px;
-    }
+   }
       ${breakpoint.lg} {
       margin: 312px 2px 7px 254px;
       position: absolute; 

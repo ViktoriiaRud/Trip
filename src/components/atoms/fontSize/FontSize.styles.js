@@ -65,7 +65,6 @@ export const PromoCitySubTitle = styled.h3`
 
 export const CombinedAboutText = styled.h3`
     text-align: center;
-    margin-top: 50px;
     max-width: 100px;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -77,13 +76,13 @@ export const CombinedAboutText = styled.h3`
     color: #333333;
         ${breakpoint.md} {  
         text-align: start;  
-        margin: 40px 0px 55px 145px;
+        margin: 0px 0px 55px 145px;
         max-width: 200px;
         font-size: 16px;
         color: rgba(51, 51, 51, 0.49833);
         }
         ${breakpoint.lg} { 
-        margin: 40px 0px 55px 96px;
+        margin: 0px 0px 55px 96px;
         }
         ${breakpoint.xl} {
         text-align: start; 
@@ -164,7 +163,7 @@ export const CombinedSubTitle = styled.h3`
         margin: 40px 0px 0px 200px;
         }
         ${breakpoint.xl} {  
-            text-align: start;
+        text-align: start;
         margin: 0px 0px 10px 160px;
         max-width: 197px;
         }
@@ -430,10 +429,10 @@ export const MirrorSubTitle = styled.h3`
         margin: 40px 10px 0px 64px;
         }
         ${breakpoint.lg} {
-        margin: 40px 15px 0px 205px;
+        margin: 0px 5px 55px 205px;
         }
         ${breakpoint.xl} {
-        margin: 40px 0px 0px 55px;
+        margin: 40px 0px 55px 55px;
         }
 `;
 

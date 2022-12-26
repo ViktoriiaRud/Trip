@@ -15,14 +15,14 @@ export const Subheader = styled.div`
 
 export const NavigationList = styled.ul`
     display: none;
-  ${breakpoint.md} {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin: 20px;
-    list-style-type: none;
-    gap: 70px;   
-    }  
+        ${breakpoint.md} {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin: 20px;
+        list-style-type: none;
+        gap: 70px;   
+        }  
 `;
 
 export const NavigationLink = styled.a`
@@ -45,11 +45,11 @@ export const Promo = styled.div`
     justify-content: center;
     margin-top: 140px;
     gap: 10px; 
-    ${breakpoint.md} {
+        ${breakpoint.md} {
         flex-direction: row;
         margin-top: 140px;
         gap: 10px;
-    }
+        }
 `;
 
 export const PromoImg = styled.div`
