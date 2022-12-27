@@ -20,10 +20,10 @@ const Navigation = () => {
                         <Col xs={6}><Logo>{navigationData.logo}</Logo></Col>
                         <Col xs={4}>
                             <NavigationList>
-                                <li><NavigationLink href="#">{navigationData.about}</NavigationLink></li>
-                                <li><NavigationLink href="#">{navigationData.tours}</NavigationLink></li>
-                                <li><NavigationLink href="#">{navigationData.blog}</NavigationLink></li>
-                                <li><NavigationLink href="#">{navigationData.contact}</NavigationLink></li>
+                                <li><NavigationLink href="#about">{navigationData.about}</NavigationLink></li>
+                                <li><NavigationLink href="#tours">{navigationData.tours}</NavigationLink></li>
+                                <li><NavigationLink href="#blog">{navigationData.blog}</NavigationLink></li>
+                                <li><NavigationLink href="#contact">{navigationData.contact}</NavigationLink></li>
                             </NavigationList>
                         </Col>
                         <Col xs={2}><Button>{navigationData.button}</Button></Col>

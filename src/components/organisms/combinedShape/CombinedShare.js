@@ -13,7 +13,7 @@ const CombinedShare = () => {
 
     return (<>
 
-        <Combined>
+        <Combined id="about">
             <CombinedWrapper>
                 <RowStyle >
                     <Col xs={12} md={6} xl={6} xxl={6}>
@@ -39,7 +39,6 @@ const CombinedShare = () => {
                         </WrapperOrange>
                     </Col>
                 </RowStyle>
-
             </CombinedWrapper>
         </Combined>
 

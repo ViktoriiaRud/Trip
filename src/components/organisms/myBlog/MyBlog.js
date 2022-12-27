@@ -24,7 +24,7 @@ import { Marker, WhitSquare } from './MyBlog.styles';
 const MyBlog = () => {
     return <>
         <WrapperBackgroundColor>
-            <WrapperBackgroundItem>
+            <WrapperBackgroundItem id="blog">
                 <OurBlogText>Our Blog</OurBlogText>
                 <ButtonBlogBlue>See More</ButtonBlogBlue>
                 <BlogTitle>Read Our Travel Articles</BlogTitle>
@@ -75,7 +75,7 @@ const MyBlog = () => {
                         </Marker>
                         <img src={MapImg} alt="map" />
                     </Map>
-                    <Text>
+                    <Text id="contact">
                         <TextContact>Contact</TextContact>
                         <ContactTitle>Get In Touch With Us</ContactTitle>
                         <ContactSubTitle>Separated they live in Bookmarksgrove right at the coast of the Semantics,

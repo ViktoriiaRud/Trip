@@ -9,7 +9,7 @@ const ExclusiveOffers = () => {
 
     return <>
         <ExclusiveBackgroundColor>
-            <Exclusive >
+            <Exclusive id="tours">
                 <ExclusiveSubTitle>{exclusiveData.subTitle}</ExclusiveSubTitle>
                 <ExclusiveTitle>{exclusiveData.title}</ExclusiveTitle>
                 <WrapperCards>
