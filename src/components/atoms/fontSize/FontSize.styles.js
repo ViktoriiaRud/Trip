@@ -308,7 +308,7 @@ export const ExclusiveDollar = styled.h2`
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 100px;
     letter-spacing: 9px;
     color: #FFFFFF;
@@ -322,7 +322,7 @@ export const ExclusiveDollar = styled.h2`
 
 export const ExpeditionTitleYear = styled.h3`
     margin: 0px 0px 0px 37px;
-    width: 100px;
+    width: 100%;
     height: 24px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -386,8 +386,7 @@ export const ExpeditionTitle = styled.h2`
 
 export const ExpeditionDollarTitle = styled.h2`
     margin: 0px 0px 0px 35px;
-    text-align: center;
-    width: 83px;
+    width: 150px;
     height: 48px;
     font-family: 'Lexend Zetta';
     font-style: normal;

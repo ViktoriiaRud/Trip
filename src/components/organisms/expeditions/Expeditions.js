@@ -23,7 +23,6 @@ const Expeditions = () => {
                         </WrapperImgCard>
                     </WrapperItemVila>
                 ))}
-
                 <ButtonLight>See More</ButtonLight>
             </WrapperCardsVila>
         </WrapperExpeditions>
