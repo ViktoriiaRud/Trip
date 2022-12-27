@@ -28,27 +28,32 @@ export const WrapperFooter = styled.div`
 		max-width: 1440px;
 		max-height: 632px;
 		}
-	
 `;
 
 export const LogoText = styled.div`
-    margin: 50px 23px 22px 15px;
+   	margin-top: 30px;
     position: absolute;
-    width: 93px;
+    width: 150px;
     height: 48px;
-    left: 80px;
+    left: 15px;
     font-family: 'Lexend Zetta';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 24px;
     color: #FFFFFF;
+	${breakpoint.md} {
+		font-size: 38px;
+		}
 		${breakpoint.lg} {
+		width: 93px;
 		margin-top: 80px;
 		position: absolute;
 		width: 93px;
 		height: 48px;
+		left: 80px;
+		font-size: 40px;
 		}
-`;
+	`;
 
 export const WrapperFooterList = styled.div`
     list-style-type: none;
@@ -175,13 +180,13 @@ export const WrapperData = styled.div`
     font-size: 16px;
     line-height: 32px;
     color: rgba(255, 255, 255, 0.502972);
-      ${breakpoint.lg} {
-      padding: 50px 50px 50px 50px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      gap: 10px;
-      }
+		${breakpoint.lg} {
+		padding: 50px 50px 50px 50px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 10px;
+		}
 `;
 
 
