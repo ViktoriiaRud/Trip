@@ -8,7 +8,7 @@ import expeditionsData from './expeditionsData';
 
 const Expeditions = () => {
     return <>
-        <WrapperExpeditions>
+        <WrapperExpeditions id="optimal">
             <ExpeditionSubTitle>{expeditionsData.subTitle}</ExpeditionSubTitle>
             <ExpeditionTitle>{expeditionsData.title}</ExpeditionTitle>
 

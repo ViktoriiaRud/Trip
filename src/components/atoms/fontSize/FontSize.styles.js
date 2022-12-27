@@ -41,7 +41,7 @@ export const PromoSubTitle = styled.h3`
 `;
 
 export const PromoCountrySubTitle = styled.h3`
-    width: 100px;
+    width: 100%;
     height: 32px;
     text-align: center;
     font-family: 'Open Sans';
@@ -53,7 +53,7 @@ export const PromoCountrySubTitle = styled.h3`
 `;
 
 export const PromoCitySubTitle = styled.h3`
-    width: 50px;
+    width: 50%;
     height: 24px;
     text-align: center;
     font-family: 'Open Sans';
@@ -618,7 +618,7 @@ export const BlogTitle = styled.h4`
 
 export const MonthText = styled.h4`
     margin: 25px 0px 17px 54px;
-    width: 127px;
+    width: 200px;
     height: 32px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -631,7 +631,7 @@ export const MonthText = styled.h4`
 `;
 
 export const MonthTitle = styled.h4`
-    width: 180px;
+    width: 210px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -647,7 +647,7 @@ export const MonthTitle = styled.h4`
 
 export const MonthSubTitle = styled.h5`
     margin: 20px 0px 0px 59px;
-    width: 130px;
+    width: 100%;
     height: 32px;
     font-family: 'Open Sans';
     font-style: normal;

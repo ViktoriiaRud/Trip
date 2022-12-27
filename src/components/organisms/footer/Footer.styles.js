@@ -26,13 +26,13 @@ export const WrapperFooter = styled.div`
     }
 		${breakpoint.lg} {
 		max-width: 1440px;
-		max-height: 432px;
+		max-height: 632px;
 		}
 	
 `;
 
 export const LogoText = styled.div`
-    margin-top: 50px;
+    margin: 50px 23px 22px 15px;
     position: absolute;
     width: 93px;
     height: 48px;
@@ -159,6 +159,29 @@ export const Social = styled.div`
 		justify-content: space-between;
 		gap: 10px;
 		}
+`;
+
+export const WrapperData = styled.div`
+    margin-top: 50px;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 100%px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.502972);
+      ${breakpoint.lg} {
+      padding: 50px 50px 50px 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 10px;
+      }
 `;
 
 

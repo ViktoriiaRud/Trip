@@ -12,11 +12,11 @@ import { TestimonialsItemPhoto, TestimonialsItem, TestimonialsItems, WrapperTest
 
 const Testimonials = () => {
     return <>
-        <WrapperTestimonials>
+        <WrapperTestimonials id="guides">
             <TestimonialsSubTitle>Testimonials</TestimonialsSubTitle>
             <TestimonialsTitle>Travel Tips From Travellers</TestimonialsTitle>
 
-            <TestimonialsCards>
+            <TestimonialsCards id="locals">
                 <TestimonialsCard>
                     <TestimonialsMarks>
                         <img src={itemImg} alt="Marks" />

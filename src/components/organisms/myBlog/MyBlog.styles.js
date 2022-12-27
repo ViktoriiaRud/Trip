@@ -33,7 +33,7 @@ export const Span = styled.span`
    margin-top: 90px;
    display: block;
    width: 260px;
-   height: 5px;
+   height: 3px;
    background: #FFFFFF;
    mix-blend-mode: normal;
    opacity: 0.08;

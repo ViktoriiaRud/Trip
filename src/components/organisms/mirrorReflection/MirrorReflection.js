@@ -15,7 +15,7 @@ const MirrorReflection = () => {
     const arrayMirror = ['Transfers', 'Guides'];
 
     return (
-        <CombinedMirror>
+        <CombinedMirror id="transfers">
             <WrapperCombinedMirror>
                 <Row>
                     <Col xs={12} md={6} xl={6} xxl={6}>
